@@ -5,10 +5,25 @@
 //  Created by Seb Lee-Delisle on 21/02/2014.
 //
 //
+#pragma once 
 
-#ifndef __LaserArcade__BottlesGame__
-#define __LaserArcade__BottlesGame__
+#include "BaseGame.h"
+#include "Bottle.h"
 
-#include <iostream>
+class BottlesGame : public BaseGame {
 
-#endif /* defined(__LaserArcade__BottlesGame__) */
+	public :
+	
+	void setup(ofRectangle rect, LaserManager * lm);
+	
+	void startGame();
+	
+	
+	//void update(vector<ofVec2f> hits);
+	bool draw();
+	
+	void registerHit(ofVec2f pos);
+	
+	vector <Bottle> bottles; 
+
+}; 

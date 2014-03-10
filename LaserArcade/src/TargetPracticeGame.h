@@ -6,9 +6,26 @@
 //
 //
 
-#ifndef __LaserArcade__TargetPracticeGame__
-#define __LaserArcade__TargetPracticeGame__
 
-#include <iostream>
+#pragma once
 
-#endif /* defined(__LaserArcade__TargetPracticeGame__) */
+#include "BaseGame.h"
+
+class TargetPracticeGame : public BaseGame {
+
+	public:
+	
+	void setup(ofRectangle rect, LaserManager * lm);
+	void update(vector<ofVec2f> hits);
+	bool draw();
+	
+	void registerHit(ofVec2f pos); 
+	
+	vector <float> targetRadiuses;
+	vector <int> targetScores;
+	vector <ofColor> targetColours;
+	
+	ofSoundPlayer bullseyeSound; 
+	
+		
+};

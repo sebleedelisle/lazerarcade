@@ -13,6 +13,7 @@ AudioSample::AudioSample(int numsamples) {
 	
 	numSamples = numsamples;
 	samples.assign(numSamples, 0);
+	volumes.assign(numSamples, 0); 
 
 	absolutePosition = 0;
 	position = 0;
@@ -45,7 +46,7 @@ void AudioSample::append(float sample) {
 		lastPeakTime = absolutePosition; 
 	}
 	
-	
+	volumes[position] = currentVolume; 
 	
 		
 }
@@ -85,55 +86,75 @@ void AudioSample::drawWaveform(float x, float y, float w, float h) {
 	//ofLine(x,y+h/2,x+w,y+h/2);
 	
 	ofBeginShape();
-	//ofVertex(x+w,y+h/2);
-	//ofVertex(x,y+h/2);
 	
-	/*
-	for(int xpos = 0; xpos<w; xpos++) {
-		
-		int i = round(ofMap(xpos, 0, w, 0, numSamples));
-		int sampleindex = ((i-numSamples+1)+absolutePosition) %numSamples;
-		float sample = 0;
-		if(sampleindex>=0) sample = samples[sampleindex];
-		
-		ofVertex(ofMap(i,0,numSamples, 0, w), ofMap(sample, -1,1,-h/2,h/2));
-		
-	}*/
-	
-	//float averageSample = 0;
-	//int numSamplesToAverage = 0;
 	float xpos = 0;
 	float lastxpos = -1;
-	float maxSample; 
+	float maxSample;
 	
 	for(int i = 0; i<numSamples; i++) {
 		
 		int sampleindex = ((i-numSamples+1)+absolutePosition) %numSamples;
 		float sample = 0;
 		if(sampleindex>=0) sample = samples[sampleindex];
-	
+		
 		if(abs(sample) > abs(maxSample)) maxSample = sample;
-//		averageSample += sample;
-//		numSamplesToAverage++;
+		//		averageSample += sample;
+		//		numSamplesToAverage++;
 		
 		xpos=ofMap(i, 0, samples.size(), 0, w);
 		//cout << xpos - lastxpos << endl;
 		if((xpos) >= lastxpos + 1.0f) {
 			lastxpos = xpos; //floor(xpos);
-//			sample = averageSample / numSamplesToAverage;
-			ofVertex(xpos, ofMap(maxSample, -1,1,-h/2,h/2));
+			//			sample = averageSample / numSamplesToAverage;
+			ofVertex(xpos, ofMap(maxSample, -1,1,h/2,-h/2));
 			//averageSample = 0;
 			//numSamplesToAverage = 0;
 			maxSample = 0;
-
+			
 		}
 		
-				
+		
 		
 	}
 	
-	ofEndShape(false); 
+	ofEndShape(false);
+
 	
+	// Draw volumes
+	ofBeginShape();
+	
+	xpos = 0;
+	lastxpos = -1;
+	maxSample;
+	
+	for(int i = 0; i<numSamples; i++) {
+		
+		int sampleindex = ((i-numSamples+1)+absolutePosition) %numSamples;
+		float sample = 0;
+		if(sampleindex>=0) sample = volumes[sampleindex];
+		
+		if(abs(sample) > abs(maxSample)) maxSample = sample;
+		//		averageSample += sample;
+		//		numSamplesToAverage++;
+		
+		xpos=ofMap(i, 0, samples.size(), 0, w);
+		//cout << xpos - lastxpos << endl;
+		if((xpos) >= lastxpos + 1.0f) {
+			lastxpos = xpos; //floor(xpos);
+			//			sample = averageSample / numSamplesToAverage;
+			ofVertex(xpos, ofMap(maxSample, 0,1,-h/2,h/2));
+			//averageSample = 0;
+			//numSamplesToAverage = 0;
+			maxSample = 0;
+			
+		}
+		
+		
+		
+	}
+	
+	ofEndShape(false);
+
 	/*
 	if(volumesUpdated) {
 		
@@ -179,7 +200,8 @@ void AudioSample::copyFrom(AudioSample &audiosample, long startPosition){
 	
 	for (int i = 0; i<numSamples; i++) {
 		
-		samples[i] = audiosample.getSampleAtPosition(startPosition+i); 
+		samples[i] = audiosample.getSampleAtPosition(startPosition+i);
+		volumes[i] = audiosample.getVolumeAtPosition(startPosition+i); 
 		
 		
 	}
@@ -198,6 +220,18 @@ float AudioSample::getSampleAtPosition(long absposition){
 	int index = absposition % numSamples;
 	
 	return samples[index];
+	
+}
+float AudioSample::getVolumeAtPosition(long absposition){
+	
+	// if we are too far back in time
+	if(absposition < absolutePosition - numSamples) return 0;
+	// or if we are too far forward in time
+	else if (absposition>absolutePosition) return 0;
+	
+	int index = absposition % numSamples;
+	
+	return volumes[index];
 	
 }
 
@@ -223,7 +257,7 @@ float AudioSample::getSampleAtPosition(long absposition){
 */
 // TODO  :  should take into account offset
 
-int AudioSample :: findFirstPeakOverThreshold(float threshold) {
+int AudioSample :: findFirstPeakOverThreshold(float threshold, bool positiveOnly) {
 	
 	bool thresholdreached = false;
 	
@@ -231,7 +265,7 @@ int AudioSample :: findFirstPeakOverThreshold(float threshold) {
 	
 	for(int i = 0; i<numSamples; i++){
 	
-		sample = abs(samples[i]);
+		sample = positiveOnly ? (samples[i]) : abs(samples[i]);
 		
 		if(sample>threshold) {
 			thresholdreached = true;

@@ -25,6 +25,8 @@
 #include "ofxGui.h"
 #include "ofMain.h"
 
+#include "TextWriter.h"
+
 // TODO : load / save settings
 
 class LaserManager {
@@ -58,13 +60,14 @@ class LaserManager {
 	
 	void addLaserPolyline(const ofPolyline& line, ColourSystem* coloursystem = NULL, float intens = 1);
 
-	//void addLaserLine(const ofPoint&start, const ofPoint&end, ofFloatColor colour);
 	void addLaserLineEased(const ofPoint&start, const ofPoint&end, ofFloatColor colour);
-	//void addLaserRect(const ofPoint&topLeft, const ofPoint&dimensions, ofFloatColor colour);
+	
 	void addLaserRectEased(const ofPoint&topLeft, const ofPoint&dimensions, ofFloatColor colour);
-	//void closeLaserLoop();
+
 	void moveLaser(const ofPoint & target);
-	//void moveLaserToPointAndVel(const ofPoint& targetPos, const ofPoint& targetVel);
+
+	
+	void addLaserText(string line, ofVec3f pos, float size, ofColor& colour, bool centred);
 	
 	void drawShapes();
 	
@@ -215,6 +218,9 @@ class LaserManager {
     ofParameterGroup homographyParameters;
 
     QuadWarp warp;
+	
+	TextWriter textWriter;
+	ofMesh laserWordMesh;
 	
 	bool shouldBeConnected;
 	string lastState; 

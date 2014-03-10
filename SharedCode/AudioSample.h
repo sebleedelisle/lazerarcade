@@ -19,7 +19,7 @@ class AudioSample {
 	AudioSample(int numsamples);
 	
 	vector <float> samples;
-	//vector <float> volumes;
+	vector <float> volumes;
 	int numSamples;
 	int position;
 
@@ -34,9 +34,10 @@ class AudioSample {
 	void drawLevel(float x, float y, float w, float h);
 	void copyFrom(AudioSample& sample, long startPosition);
 	float getSampleAtPosition(long absposition);
+	float getVolumeAtPosition(long absposition);
 	//void updateVolume();
 	void normalise(); 
 	
-	int findFirstPeakOverThreshold(float threshold);
+	int findFirstPeakOverThreshold(float threshold, bool positiveOnly = false);
 
 };

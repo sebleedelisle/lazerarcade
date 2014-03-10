@@ -1,9 +1,12 @@
 #include "ofApp.h"
 
+
+
 //--------------------------------------------------------------
 void ofApp::setup(){
 	ofEnableAntiAliasing();
 	ofEnableSmoothing();
+	ofSetFrameRate(60);
 
 	screenWidth = 1280;
 	screenHeight = 1024;
@@ -16,8 +19,6 @@ void ofApp::setup(){
 	
 	hitFinder.setup(this, screenWidth, screenHeight, 6);
 
-	
-	
 	int panelwidth = 200;
 	
 	ofxBaseGui::setDefaultWidth(panelwidth);
@@ -30,53 +31,80 @@ void ofApp::setup(){
 	
 	ofxBaseGui::loadFont("VeraMoIt.ttf",8, true);
 	
-	gui.setup("panel");
+	gui.setup("Settings");
 	gui.setPosition(ofPoint(screenWidth - panelwidth - 10,10));
 	gui.setVisible(true);
 	gui.add(&laserManager.connectButton);
 	gui.add(laserManager.parameters);
 	
+
 	gui.add(hitFinder.params);
-	
-	
-	
-//	 for(int i = 0; i<numChannels; i++) {
-//	 string name = "threshold "+ofToString(i);
-//	 
-//	 thresholds.push_back(0.1);
-//	 ofParameter<float> & param = thresholds[i];
-//	 
-//	 param.set(name, 0.1, 0, 1);
-//	 gui.add(param);
-//	 }
-//	
-//	gui.add(scalar.set("Scalar", 2.35, 0, 10));
-//	scalar.addListener(this, &ofApp::scalarChanged);
-	
-	
 	
 	gui.load();
 	
 	
+	asteroidsGame.setup(ofRectangle(0,screenHeight*0.3,screenWidth, screenHeight*0.7), &laserManager);
+	targetGame.setup(ofRectangle(0,screenHeight*0.3,screenWidth, screenHeight*0.7), &laserManager);
+	coconutGame.setup(ofRectangle(0,screenHeight*0.3,screenWidth, screenHeight*0.7), &laserManager);
+	bottlesGame.setup(ofRectangle(0,screenHeight*0.3,screenWidth, screenHeight*0.7), &laserManager);
+	duckGame.setup(ofRectangle(0,screenHeight*0.3,screenWidth, screenHeight*0.7), &laserManager);
+	
+	games.push_back(&coconutGame);
+	games.push_back(&targetGame);
+	games.push_back(&asteroidsGame);
+	games.push_back(&bottlesGame);
+	games.push_back(&duckGame);
+	setGame(0); 
+	
 	
 }
+
+
+void ofApp::setGame(int index) {
+	
+	if(index >= games.size()) index = 0;
+	else if(index<0) index = games.size()-1; 
+	currentGameIndex = index;
+	currentGame = games[index];
+	currentGame->changeState(0);
+	
+	
+}
+
+
 
 //--------------------------------------------------------------
 void ofApp::update(){
 	laserManager.update();
 	hitFinder.update();
+	currentGame->update(hitFinder.getHits());
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
 	ofBackground(0);
-	
 	ofDrawBitmapString(ofToString(round(ofGetFrameRate())), 0,10);
 	
-	laserManager.addLaserCircle(ofPoint(screenWidth/2, screenHeight/2), ofColor::white, 100);
 	
+	if(hitFinder.showSolver) {
+		vector<ofVec2f>& mics = hitFinder.micPositions;
+		for(int i = 0; i<mics.size(); i++) {
+			laserManager.addLaserDot(mics[i], ofColor(255)); 
+			
+			
+		}
+		
+		if(hitFinder.showSolverTest) {
+			laserManager.addLaserDot(hitFinder.solverTest.calculatedPoint, ofColor(255,0,0));
+
+		}
+		
+	}
+	
+	currentGame->draw();
+		
 	laserManager.draw();
-	laserManager.renderLaserPath(ofRectangle(0,0,ofGetWidth(), ofGetHeight()), false);
+	laserManager.renderLaserPath(ofRectangle(0,0,screenWidth, screenHeight), false);
 	laserManager.renderPreview();
 	
 	hitFinder.draw();
@@ -93,6 +121,15 @@ void ofApp::keyPressed(int key){
 	if(key == 'w') laserManager.showWarpPoints = !laserManager.showWarpPoints;
 	if(key == 'e') hitFinder.showWaveForms = !hitFinder.showWaveForms;
 	if(key == 'r') hitFinder.showSolver = !hitFinder.showSolver;
+	
+	if(key == ' ') {
+		currentGame->toggleState();
+	}
+	if(key == OF_KEY_LEFT) {
+		setGame(currentGameIndex-1);
+	} else if(key == OF_KEY_RIGHT) {
+		setGame(currentGameIndex+1);
+	}
 }
 
 
@@ -132,6 +169,7 @@ void ofApp::gotMessage(ofMessage msg){
 
 void ofApp::exit() {
 	gui.save();
+	
 	laserManager.warp.saveSettings();
 	hitFinder.saveSettings();
 

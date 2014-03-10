@@ -11,10 +11,17 @@ class ColourSystem {
 
 	public :
 	
-	ColourSystem() {};
+	ColourSystem() {
+		defaultColour = ofColor::white;
+	};
+	
+	ColourSystem(ofColor col) {
+		defaultColour = col;
+	};
 	
 	virtual ofColor getColourForPoint(float unitProgress, ofPoint& pos) {
-		return ofColor::white;
+		return defaultColour;
 	}
 
+	ofColor defaultColour;
 };

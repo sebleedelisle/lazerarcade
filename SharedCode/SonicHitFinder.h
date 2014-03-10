@@ -28,6 +28,9 @@ class SonicHitFinder {
 	void updateTDOAs();
 	void updateHitPeakPositions();
 	
+	void registerHit(ofVec2f& pos); 
+	vector <ofVec2f> getHits(); 
+	
 	void scalarChanged(float& v);
 	void allThresholdsChanged(float& v);
 	void secondaryThresholdChanged(float& v);
@@ -48,6 +51,7 @@ class SonicHitFinder {
 	int lastHitChannel;
 	
 	MultilatSpring solver;
+	MultilatSpring solverTest; // used to show what the solver should look like for a given position
 	
 	
 	long sampleCounter;
@@ -62,11 +66,15 @@ class SonicHitFinder {
 	vector<ofParameter<float> > thresholds;
 	ofParameter<bool> showWaveForms;
 	ofParameter<bool> showSolver;
+	ofParameter<bool> showSolverTest; 
 	ofParameter<float> scalar;
 	ofParameter<float> allThresholds; 
 	ofParameter<float> secondaryThreshold;
 	
 	vector <ofVec2f>  micPositions;
+	vector <ofVec2f>  hits;
+	
+	int sampleRate; 
 	
 	
 	

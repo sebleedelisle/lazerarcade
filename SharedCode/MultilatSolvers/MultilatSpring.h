@@ -21,7 +21,7 @@ class MultilatSpring {
 	void setMicPosition(int index, ofVec2f& pos);
 	void setMicPosition(int index, float x, float y);
 	void update();
-	void draw();
+	void draw(ofColor col = ofColor::white);
 	void setTDOA(int index, float distance);
 	void reset();
 	
@@ -37,7 +37,9 @@ class MultilatSpring {
 	
 	
 	vector<ofVec2f> mics;
+	vector<bool> micsEnabled; 
 	vector<float> tdoas;
+	
 	ofVec2f calculatedPoint;
 	ofVec2f calcPointVel;
 	ofVec2f centrePoint;

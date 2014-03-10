@@ -47,6 +47,7 @@ void MultilatSpring::setup(){
 void MultilatSpring::addMic(float x, float y) {
 	mics.push_back(ofVec2f(x,y));
 	tdoas.push_back(0);
+	micsEnabled.push_back(true); 
 }
 
 
@@ -60,6 +61,8 @@ void MultilatSpring::setMicPosition(int index, ofVec2f& pos){
 	while(index>=mics.size()) {
 		mics.push_back(pos);
 		tdoas.push_back(0);
+		micsEnabled.push_back(true);
+
 	}
 	
 	mics[index] = pos;
@@ -78,13 +81,14 @@ void MultilatSpring::update(){
 		// each tdoa point needs to be attracted to the centre point, but
 		// also restricted to the radius of their TDOA
 		
+		int numActiveMics = 0; 
 		for(int i = 0; i<mics.size(); i++) {
-			
+			if(!micsEnabled[i]) continue; 
 			averagedistance += (calculatedPoint.distance(mics[i])-tdoas[i]);
-
+			numActiveMics++; 
 		}
 		
-		averagedistance/=mics.size();
+		averagedistance/=numActiveMics;
 		
 		calcPointVel*=0.3;
 		
@@ -93,19 +97,20 @@ void MultilatSpring::update(){
 		
 		for(int i = 0; i<mics.size(); i++) {
 			
+			if(!micsEnabled[i]) continue; 
 			float distance = mics[i].distance(calculatedPoint);
 			if(isinf(distance)) {
-				cout << "FUCKED" << endl;
+				cout << "BORKED" << endl;
 			}
 			if(distance==0 ) distance =0.0001;
 			ofVec2f target = calculatedPoint - mics[i];
 			if(isnan(target.x )) {
-				cout << "FUCKED" << endl;
+				cout << "BORKED" << endl;
 			}
 
 			target *= (averagedistance+tdoas[i]) / (distance);
 			if(isnan(target.x )) {
-				cout << "FUCKED" << endl;
+				cout << "BORKED" << endl;
 			}
 			target+=mics[i];
 			
@@ -114,7 +119,7 @@ void MultilatSpring::update(){
 			calcPointVel += diff*0.3;
 			
 			if(isnan(calcPointVel.x )) {
-				cout << "FUCKED" << endl; 
+				cout << "BORKED" << endl; 
 			}
 			
 		}
@@ -132,16 +137,16 @@ void MultilatSpring::update(){
 }
 
 //--------------------------------------------------------------
-void MultilatSpring::draw(){
+void MultilatSpring::draw(ofColor col){
 	
 	ofPushStyle();
 	ofEnableBlendMode(OF_BLENDMODE_ADD);
 	
 	ofNoFill();
-	ofSetColor(255);
+	ofSetColor(col);
 	//ofRect(100,100,600,400);
 	
-	if(calcPointVel.length() > 0.01) {
+	if(!settled) {
 		ofSetColor(255,0,0);
 	}
 	ofCircle(calculatedPoint, 10);
@@ -150,24 +155,26 @@ void MultilatSpring::draw(){
 	
 	for(int i = 0; i<mics.size(); i++) {
 		
+		if(!micsEnabled[i]) continue;
+		
 		ofSetCircleResolution(100);
-		ofSetColor(255);
+		ofSetColor(col);
 		ofSetLineWidth(3);
 		ofCircle(mics[i], 30);
 		
 		ofSetLineWidth(1);
-		ofSetColor(40);
+		ofSetColor(col/2);
 		ofCircle(mics[i], tdoas[i]);
 		
-		
-		ofSetColor(100);
+		ofSetLineWidth(1);
+		ofSetColor(col);
 		ofLine(mics[i], calculatedPoint);
 		
 		circleIntersect = calculatedPoint - mics[i];
 		circleIntersect.normalize();
 		circleIntersect *= tdoas[i];
 		circleIntersect += mics[i];
-		
+		ofSetLineWidth(2);
 		ofCircle(circleIntersect, 2);
 		
 		
@@ -206,7 +213,7 @@ void MultilatSpring::mousePressed(int x, int y){
 	
 	ofVec2f mousePos(x,y);
 	for(int i = 0; i<mics.size(); i++) {
-		if(mics[i].distance(mousePos)<20) {
+		if(mics[i].distance(mousePos)<40) {
 			offsetClick =  mics[i] - mousePos;
 			currentDragMic = i; 
 		}
@@ -227,6 +234,8 @@ void MultilatSpring :: simulateHit(float x, float y) {
 		//vector<ofVec2f> & mics = solver.mics;
 		
 		for(int i = 0; i<mics.size(); i++) {
+			
+			if(!micsEnabled[i]) continue;
 			
 			float distance = mics[i].distance(mouseClickPoint);
 			if(distance<closest) {

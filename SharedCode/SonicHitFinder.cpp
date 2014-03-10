@@ -20,7 +20,7 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 	width = w;
 	height = h;
 	numChannels = numchannels;
-	samplesBetweenHits = 50000;
+	samplesBetweenHits = 25000;
 	scalar = 1;
 	hitCount = 0;
 	showWaveForms = false;
@@ -28,7 +28,7 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 	
 	// todo replace with actual number. 
 	solver.setup();
-	
+	params.setName("Hit Finder");
 
 	micPositions.push_back(ofVec2f(40,380));
 	micPositions.push_back(ofVec2f(500,380));
@@ -41,11 +41,18 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 	
 	for(int i = 0; i<numChannels; i++) {
 		
-		solver.setMicPosition(i, micPositions[i]); 		
+		solver.setMicPosition(i, micPositions[i]);
+		solverTest.setMicPosition(i, micPositions[i]);
+		
+		
 	}
+	
+	//solver.micsEnabled[4] = false;
+	//solverTest.micsEnabled[4] = false;
 	
 	// TODO : make this work :)
 	// ie get the list of devices and add them to some sort of GUI thing.
+	//---------------------------------------------------------------------------
 	
 	ofPtr<RtAudio> audioTemp;
 	try {
@@ -69,12 +76,14 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 		ofLogNotice("ofRtAudioSoundStream") << "maximum input channels " << info.inputChannels;
 		ofLogNotice("ofRtAudioSoundStream") << "-----------------------------------------";
 	}
+	//------------------------------------------------------------------------------
+	
 	
 	
 	inputs.assign(numChannels, AudioSample(48000));
-	hitWaves.assign(numChannels, AudioSample(700));
+	hitWaves.assign(numChannels, AudioSample(1400));
 	hitPeakPositions.assign(numChannels, 0);
-	thresholds.assign(numChannels, 0.1);
+	//thresholds.assign(numChannels, 0.1);
 	
 	for(int i = 0; i<numChannels; i++) {
 		string name = "threshold "+ofToString(i);
@@ -83,12 +92,15 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 		ofParameter<float> & param = thresholds[i];
 		
 		param.set(name, 0.1, 0, 1);
-		params.add(param);
+		//params.add(param);
 	}
+	
+	params.add(showSolver.set("Show solver", false));
+	params.add(showSolverTest.set("Show guide solver", true));
 	
 	params.add(allThresholds.set("All thresholds", 0.1, 0, 1));
 	allThresholds.addListener(this, &SonicHitFinder::allThresholdsChanged);
-	params.add(secondaryThreshold.set("2nd threshold", 0.15, 0, 1));
+	params.add(secondaryThreshold.set("Second threshold", 0.15, 0, 1));
 	secondaryThreshold.addListener(this, &SonicHitFinder::secondaryThresholdChanged);
 	
 	
@@ -103,8 +115,14 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 	// samples per buffer
 	// num buffers (latency)
 	
-	soundStream.setDeviceID(6);
-	soundStream.setup(app, 0, numChannels, 192000, 1024, 1);
+	sampleRate = 96000;
+	soundStream.setDeviceID(5);
+//	soundStream.setup(app, 0, numChannels, 192000, 1024, 1);
+	soundStream.setup(app, 0, numChannels, sampleRate, 1024, 1);
+	
+	//soundStream.setDeviceID(0);
+	//soundStream.setup(app, 0, 2, 44100, 1024, 1);
+
 		
 }
 
@@ -112,6 +130,7 @@ void SonicHitFinder :: setup(ofBaseApp * app, int w, int h, int numchannels){
 void SonicHitFinder::update(){
 	
 	solver.update();
+	solverTest.update(); 
 	
 }
 
@@ -183,8 +202,12 @@ void SonicHitFinder::draw() {
 	
 	}
 	
-	if(showSolver) solver.draw();
-	
+	if(showSolver) {
+		solver.draw();
+		if(showSolverTest){
+			solverTest.draw(ofColor::red);
+		}
+	}
 	
 	//gui.draw();
 }
@@ -230,7 +253,7 @@ void SonicHitFinder::audioIn(float * input, int bufferSize, int numChannels){
 				hitFound = true;
 								
 				AudioSample & hitWave = hitWaves[j];
-				hitWave.copyFrom(micAudioSample, peakPosition - 50);
+				hitWave.copyFrom(micAudioSample, peakPosition - 200);
 				
 			}
 			
@@ -243,9 +266,13 @@ void SonicHitFinder::audioIn(float * input, int bufferSize, int numChannels){
 	}
 	
 	if(hitFound) {
+		
+		
+		
 		updateHitPeakPositions();
 		updateTDOAs();
-		hitCount++;
+		
+		registerHit(solver.calculatedPoint);
 
 	}
 	
@@ -254,6 +281,21 @@ void SonicHitFinder::audioIn(float * input, int bufferSize, int numChannels){
 	
 }
 
+void SonicHitFinder:: registerHit(ofVec2f& pos) {
+	
+	hits.push_back(pos);
+	
+	hitCount++;
+
+	
+}
+
+vector<ofVec2f> SonicHitFinder:: getHits() {
+	vector<ofVec2f>returnhits = hits;
+	hits.erase(hits.begin(), hits.end());
+	return returnhits; 
+	
+}
 void SonicHitFinder::scalarChanged(float& v) {
 	
 	updateTDOAs();
@@ -283,7 +325,7 @@ void SonicHitFinder::updateHitPeakPositions() {
 		
 		//hitWave.updateVolume();
 		hitWave.normalise();
-		hitPeakPositions[i] = hitWave.findFirstPeakOverThreshold(secondaryThreshold);
+		hitPeakPositions[i] = hitWave.findFirstPeakOverThreshold(secondaryThreshold, true);
 		//cout << "peak position " << j << " = " << hitPeakPositions[j] << endl;
 	
 	}
@@ -302,7 +344,7 @@ void SonicHitFinder::updateTDOAs() {
 	
 	for(int i = 0; i<hitPeakPositions.size(); i++) {
 		
-		solver.setTDOA(i, (hitPeakPositions[i]-closestPeakPosition)*scalar);
+		solver.setTDOA(i, (hitPeakPositions[i]-closestPeakPosition)*scalar * ( 192000 / sampleRate));
 	}
 	solver.reset();
 	solver.update();
@@ -321,8 +363,10 @@ void SonicHitFinder::mouseDragged(int x, int y){
 void SonicHitFinder::mousePressed(int x, int y){
 	solver.mousePressed(x, y);
 	
-	if((solver.currentDragMic==-1) && (showWaveForms)) {
-		solver.simulateHit(x, y);
+	if(solver.currentDragMic==-1)  { //&& (showSolver)) {
+		solverTest.simulateHit(x, y);
+		ofVec2f pos(x,y);
+		registerHit(pos);
 	}
 	//solver.mousePressed(x-secondScreen.x, y-secondScreen.y);
 }

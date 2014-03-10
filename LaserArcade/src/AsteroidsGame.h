@@ -5,10 +5,32 @@
 //  Created by Seb Lee-Delisle on 20/02/2014.
 //
 //
+#pragma once 
 
-#ifndef __LaserArcade__AsteroidsGame__
-#define __LaserArcade__AsteroidsGame__
+#include "BaseGame.h"
+#include "Asteroid.h"
 
-#include <iostream>
+class AsteroidsGame : public BaseGame {
 
-#endif /* defined(__LaserArcade__AsteroidsGame__) */
+
+	public:
+	
+	void setup(ofRectangle rect, LaserManager * lm);
+	
+	void startGame();
+	
+
+	void update(vector<ofVec2f> hits);
+	bool draw();
+	
+	void registerHit(ofVec2f pos);
+	
+	void resetAsteroids(); 
+
+	
+	vector <Asteroid> asteroids;
+	
+	ofSoundPlayer explosion; 
+	
+	
+};

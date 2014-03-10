@@ -22,12 +22,13 @@ LaserManager * LaserManager::instance() {
 LaserManager:: LaserManager() {
 	pointPreviewImage.loadImage("img/LaserPointPreview.png");
 
-	
 	//etherdream.setWaitBeforeSend(true);
 	
 	beep.loadSound("beep.aif");
 	beep.setVolume(0.01);
-	lastState = ""; 
+	lastState = "";
+	textWriter.colourFlickerMin = 1;
+	textWriter.lineRandomness = 0; 
 }
 
 
@@ -764,10 +765,10 @@ void LaserManager:: addLaserLineEased(const ofPoint&startpoint, const ofPoint&en
 
 void LaserManager:: drawLaserDot(LaserDot &dot) {
 	//cout << i << " DOT!" << endl;
-	int particlecount = dotMaxPoints;// ceil(dotMaxPoints* dot->intensity);
+	int particlecount = dotMaxPoints * dot.intensity;// ceil(dotMaxPoints* dot->intensity);
 
 	for(int i = 0; i<particlecount; i++) {
-		addIldaPoint(dot.getStartPos(), dot.colour, dot.intensity);
+		addIldaPoint(dot.getStartPos(), dot.colour);
 	}
 	
 }
@@ -801,6 +802,25 @@ void LaserManager:: drawLaserCircle(LaserCircle &circle){
 		
 		addIldaPoint(p, circle.colour, circle.intensity);
 	}
+}
+
+
+void LaserManager::addLaserText(string line, ofVec3f pos, float size, ofColor& colour, bool centred) {
+
+	textWriter.colour = colour;
+
+	laserWordMesh = textWriter.getMesh(line, pos, size, centred);;
+	vector<ofVec3f>& vertices = laserWordMesh.getVertices();
+
+	for(int i = 0; i<vertices.size(); i+=2) {
+		if(i+1>=vertices.size()) break;
+		// bit of a hack in case you wanted to move your
+		// writing around in 3D
+		vertices[i].z = pos.z;
+		vertices[i+1].z = pos.z;
+		addLaserLineEased(vertices[i], vertices[i+1], laserWordMesh.getColors()[i]);
+	}
+
 }
 
 
@@ -1335,7 +1355,7 @@ void LaserManager :: renderPreview() {
 			mesh.addColor(ofColor::black);
 			mesh.addVertex(v + circle->pos);
 			
-			for(int i = 0; i<=360; i+=20) {
+			for(int i = 0; i<=360; i+=10) {
 				v.set(0, -circle->radius);
 				v.rotate(i, ofVec3f(0,0,1)); 
 				mesh.addColor(circle->colour);

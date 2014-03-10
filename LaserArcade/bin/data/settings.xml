@@ -1,40 +1,42 @@
-<panel>
+<Settings>
 	<Laser_Manager>
-		<UnknownName>IDLE</UnknownName>
+		<UnknownName>CONNECTION_FAILED</UnknownName>
 		<intensity>1</intensity>
 		<test_pattern>0</test_pattern>
 		<sync_delay>0</sync_delay>
-		<points_per_second>80000</points_per_second>
-		<mask_margin_top>0</mask_margin_top>
+		<points_per_second>75150</points_per_second>
+		<mask_margin_top>256</mask_margin_top>
 		<mask_margin_bottom>0</mask_margin_bottom>
 		<mask_margin_left>0</mask_margin_left>
 		<mask_margin_right>0</mask_margin_right>
 		<show_warp_points>0</show_warp_points>
-		<colour_change_offset>-6</colour_change_offset>
+		<colour_change_offset>-10</colour_change_offset>
 		<flip_x>1</flip_x>
-		<flip_y>1</flip_y>
+		<flip_y>0</flip_y>
 		<laser_on_during_move>0</laser_on_during_move>
 		<preview_laser>1</preview_laser>
-		<preview_laser_dots>1</preview_laser_dots>
-		<post_transform_dots>1</post_transform_dots>
+		<preview_laser_dots>0</preview_laser_dots>
+		<post_transform_dots>0</post_transform_dots>
 		<move_speed>3</move_speed>
 		<move_points_padding>1</move_points_padding>
-		<shape_pre_blank_points>1</shape_pre_blank_points>
-		<shape_post_blank_points>1</shape_post_blank_points>
-		<dot_max_points>7</dot_max_points>
-		<line_acceleration>0.5</line_acceleration>
-		<line_speed>20</line_speed>
-		<circle_overlap>20</circle_overlap>
-		<circle_acceleration>0.5</circle_acceleration>
-		<circle_speed>20</circle_speed>
-		<eased_line_speed>8</eased_line_speed>
-		<eased_line_padding>1</eased_line_padding>
+		<shape_pre_blank_points>3</shape_pre_blank_points>
+		<shape_post_blank_points>3</shape_post_blank_points>
+		<dot_max_points>32</dot_max_points>
+		<line_acceleration>1.2469</line_acceleration>
+		<line_speed>13.97</line_speed>
+		<circle_overlap>0</circle_overlap>
+		<circle_acceleration>0.06985</circle_acceleration>
+		<circle_speed>25.56</circle_speed>
+		<eased_line_speed>2</eased_line_speed>
+		<eased_line_padding>5</eased_line_padding>
 		<spiral_spacing>10</spiral_spacing>
 	</Laser_Manager>
-	<group>
-		<threshold_5>0.37</threshold_5>
-		<All_thresholds>0.37</All_thresholds>
-		<2nd_threshold>0.15</2nd_threshold>
-		<Scalar>2.35</Scalar>
-	</group>
-</panel>
+	<Hit_Finder>
+		<All_thresholds>0.25</All_thresholds>
+		<Second_threshold>0.31</Second_threshold>
+		<Scalar>1.5</Scalar>
+	<Show_solver>0</Show_solver>
+		<Show_guide_solver>1</Show_guide_solver>
+	</Hit_Finder>
+<Settings/>
+</Settings>

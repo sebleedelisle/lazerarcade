@@ -15,6 +15,10 @@
 		1250B3BC189A84400055CDAA /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1250B3B1189A84400055CDAA /* ofxSlider.cpp */; };
 		1250B3BD189A84400055CDAA /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1250B3B3189A84400055CDAA /* ofxSliderGroup.cpp */; };
 		1250B3BE189A84400055CDAA /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1250B3B5189A84400055CDAA /* ofxToggle.cpp */; };
+		12675D5318B2BE5D002453E0 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12675D4C18B2BE5D002453E0 /* tinyxml.cpp */; };
+		12675D5418B2BE5D002453E0 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12675D4E18B2BE5D002453E0 /* tinyxmlerror.cpp */; };
+		12675D5518B2BE5D002453E0 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12675D4F18B2BE5D002453E0 /* tinyxmlparser.cpp */; };
+		12675D5618B2BE5D002453E0 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12675D5118B2BE5D002453E0 /* ofxXmlSettings.cpp */; };
 		12CC8F5D18A9509500FDD64C /* MultiLatSpring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CC8F3518A9509500FDD64C /* MultiLatSpring.cpp */; };
 		12D0AD1018AE79BA0028BAFC /* SonicHitFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12D0AD0E18AE79BA0028BAFC /* SonicHitFinder.cpp */; };
 		12D0AD1718AE7A3B0028BAFC /* AudioSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12D0AD1518AE7A3B0028BAFC /* AudioSample.cpp */; };
@@ -88,6 +92,12 @@
 		1250B3B4189A84400055CDAA /* ofxSliderGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
 		1250B3B5189A84400055CDAA /* ofxToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
 		1250B3B6189A84400055CDAA /* ofxToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
+		12675D4C18B2BE5D002453E0 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		12675D4D18B2BE5D002453E0 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		12675D4E18B2BE5D002453E0 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		12675D4F18B2BE5D002453E0 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		12675D5118B2BE5D002453E0 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
+		12675D5218B2BE5D002453E0 /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
 		12CC8F3518A9509500FDD64C /* MultiLatSpring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLatSpring.cpp; sourceTree = "<group>"; };
 		12CC8F3618A9509500FDD64C /* MultiLatSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLatSpring.h; sourceTree = "<group>"; };
 		12D0AD0E18AE79BA0028BAFC /* SonicHitFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SonicHitFinder.cpp; sourceTree = "<group>"; };
@@ -181,6 +191,36 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		12675D4A18B2BE5D002453E0 /* ofxXmlSettings */ = {
+			isa = PBXGroup;
+			children = (
+				12675D4B18B2BE5D002453E0 /* libs */,
+				12675D5018B2BE5D002453E0 /* src */,
+			);
+			name = ofxXmlSettings;
+			path = ../../../addons/ofxXmlSettings;
+			sourceTree = "<group>";
+		};
+		12675D4B18B2BE5D002453E0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				12675D4C18B2BE5D002453E0 /* tinyxml.cpp */,
+				12675D4D18B2BE5D002453E0 /* tinyxml.h */,
+				12675D4E18B2BE5D002453E0 /* tinyxmlerror.cpp */,
+				12675D4F18B2BE5D002453E0 /* tinyxmlparser.cpp */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		12675D5018B2BE5D002453E0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				12675D5118B2BE5D002453E0 /* ofxXmlSettings.cpp */,
+				12675D5218B2BE5D002453E0 /* ofxXmlSettings.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		12CC8F0C18A9509500FDD64C /* SharedCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +246,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				12675D4A18B2BE5D002453E0 /* ofxXmlSettings */,
 				1250B3A4189A84400055CDAA /* ofxGui */,
 			);
 			name = addons;
@@ -391,6 +432,10 @@
 				12CC8F5D18A9509500FDD64C /* MultiLatSpring.cpp in Sources */,
 				12D0AD1018AE79BA0028BAFC /* SonicHitFinder.cpp in Sources */,
 				12D0AD1718AE7A3B0028BAFC /* AudioSample.cpp in Sources */,
+				12675D5318B2BE5D002453E0 /* tinyxml.cpp in Sources */,
+				12675D5418B2BE5D002453E0 /* tinyxmlerror.cpp in Sources */,
+				12675D5518B2BE5D002453E0 /* tinyxmlparser.cpp in Sources */,
+				12675D5618B2BE5D002453E0 /* ofxXmlSettings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

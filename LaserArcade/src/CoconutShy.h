@@ -5,10 +5,25 @@
 //  Created by Seb Lee-Delisle on 21/02/2014.
 //
 //
+#pragma once
 
-#ifndef __LaserArcade__CoconutShy__
-#define __LaserArcade__CoconutShy__
+#include "BaseGame.h"
+#include "Coconut.h"
 
-#include <iostream>
+class CoconutShy : public BaseGame {
 
-#endif /* defined(__LaserArcade__CoconutShy__) */
+	public :
+	
+	
+	void setup(ofRectangle rect, LaserManager * lm);
+	//void update(vector<ofVec2f> hits);
+	bool draw();
+	void startGame();
+	
+	
+	void registerHit(ofVec2f pos);
+	
+	vector <Coconut> coconuts;
+	
+	
+};
