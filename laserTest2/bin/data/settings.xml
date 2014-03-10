@@ -1,0 +1,36 @@
+<panel>
+	<Laser_Manager>
+		<status>No devices connected ETHERDREAM_CONNECTION_FAILED 1 0</status>
+		<intensity>1</intensity>
+		<test_pattern>0</test_pattern>
+		<sync_delay>0</sync_delay>
+		<points_per_second>30000</points_per_second>
+		<mask_margin_top>0</mask_margin_top>
+		<mask_margin_bottom>0</mask_margin_bottom>
+		<mask_margin_left>0</mask_margin_left>
+		<mask_margin_right>0</mask_margin_right>
+		<show_warp_points>0</show_warp_points>
+		<colour_change_offset>-13</colour_change_offset>
+		<flip_x>1</flip_x>
+		<flip_y>0</flip_y>
+		<laser_move_points>0</laser_move_points>
+		<show_sync_test>0</show_sync_test>
+		<show_laser_path>0</show_laser_path>
+		<render_laser_preview>1</render_laser_preview>
+		<show_post_transform_preview>0</show_post_transform_preview>
+		<move_speed>7.5102</move_speed>
+		<move_points_padding>0</move_points_padding>
+		<shape_pre_blank_points>8</shape_pre_blank_points>
+		<shape_post_blank_points>7</shape_post_blank_points>
+		<dot_max_points>7</dot_max_points>
+		<line_acceleration>0.5</line_acceleration>
+		<line_speed>20</line_speed>
+		<circle_overlap>9.18367</circle_overlap>
+		<circle_acceleration>0.0914286</circle_acceleration>
+		<circle_speed>2</circle_speed>
+		<eased_line_speed>8</eased_line_speed>
+		<eased_line_padding>1</eased_line_padding>
+		<spiral_spacing>10</spiral_spacing>
+	</Laser_Manager>
+<panel/>
+</panel>

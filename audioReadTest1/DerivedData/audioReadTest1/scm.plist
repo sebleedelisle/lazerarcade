@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/sebretina/Dropbox/openFrameworks</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxControlPanel</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2014-02-08T18:28:16Z</date>
+	<key>MissingFilePaths</key>
+	<array/>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>

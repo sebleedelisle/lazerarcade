@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxLibdc</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxIlda</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxEtherdream</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxEtherdream</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2014-02-14T13:14:15Z</date>
+	<key>MissingFilePaths</key>
+	<array>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ground_truth.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/core.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/sampling.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/gpu.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/tinyxml.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/gpumat.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/allocator.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/highgui.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvFloatImage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvImage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cv.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/nn_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiToggle.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvImage.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiSlider2d.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiSlider2d.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvConstants.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ml.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/core_c.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ml.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvBlob.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/autotuned_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cv.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvContourFinder.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cvwimage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/result_set.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiConfig.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvShortImage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/.gitignore</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiColorPicker.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/config.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiTitle.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/install.xml</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiSliderBase.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvShortImage.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cxcore.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/imgproc_c.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiControl.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/kdtree_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvGrayscaleImage.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/video.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiMovieSlider.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/wimage.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/matrix_operations.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/libs/glut/lib/osx/GLUT.framework</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/defines.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiValueControl.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/contrib.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/blobtrack.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/flann.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvGrayscaleImage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiTitle.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/highgui.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/bin/ofxIlda example RenderTargetDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/index_testing.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/matrix.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/composite_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/stream_accessor.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/hdf5.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/streams.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/imgproc.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvColorImage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/dist.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxMSAInteractiveObject.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cxeigen.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cxmisc.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxMSAInteractiveObject.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ts_gtest.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/lsh_table.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiControl.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxXmlSettings.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/internal.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/legacy.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/timer.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/simplex_downhill.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/random.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiComboBox.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiFPSCounter.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiToo.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/version.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiPage.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiSliderInt.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/tracking.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/devmem2d.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiComboBox.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/eigen.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/types_c.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvMain.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/lsh_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiConfig.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiContent.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiPage.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/objdetect.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiContent.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/any.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/dynamic_bitset.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cvaux.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiSliderFloat.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/miniflann.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvContourFinder.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/kdtree_single_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/all_indices.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/general.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/tinyxmlerror.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/mat.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/opencv.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/compat.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cvaux.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/dummy.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/flann_base.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/kmeans_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiButton.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvHaarFinder.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/retina.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/license.md</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvFloatImage.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxXmlSettings.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/operations.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiButton.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/params.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiColorPicker.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiValueControl.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxOpenCv.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/saving.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiToo.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvHaarFinder.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/features2d.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/background_segm.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiQuadWarp.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiFPSCounter.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/highgui_c.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/heap.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/hierarchical_clustering_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/README.md</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxCvColorImage.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/opencv.a</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiQuadWarp.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/logger.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiToggle.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/src/ofxSimpleGuiIncludes.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ts.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/calib3d.hpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/linear_index.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/tinyxmlparser.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/cxcore.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/object_factory.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/ofxSimpleGuiMovieSlider.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros/addons/ofxIlda/ofxIlda example RenderTarget/tinyxml.cpp</string>
+	</array>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>

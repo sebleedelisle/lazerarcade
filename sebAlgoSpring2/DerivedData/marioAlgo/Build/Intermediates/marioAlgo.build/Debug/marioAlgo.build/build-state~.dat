@@ -1,0 +1,256 @@
+TmarioAlgo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C1D6AE00000000000000AA
+t1371657902
+s170
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000500B633B000000000001A480
+t1342923579
+s107648
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005236231100000000000065B0
+t1379279633
+s26032
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000519F43A300000000023F11D0
+t1369392035
+s37687760
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000500B62FA000000000000BAA0
+t1342923514
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236231200000000003B2500
+t1379279634
+s3876096
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052362312000000000010BB70
+t1379279634
+s1096560
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000519F442E0000000000656060
+t1369392174
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000500B6300000000000000D4F0
+t1342923520
+s54512
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514766340000000000081CB0
+t1363633716
+s531632
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000523623140000000000130950
+t1379279636
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052362316000000000002DAD0
+t1379279638
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005236231700000000004A2E10
+t1379279639
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000523623170000000000322E20
+t1379279639
+s3288608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx/GLUT.framework
+c000000005213496900000000000000CC
+t1376995689
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c00000000521349690000000000093570
+t1376995689
+s603504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/marioAlgoDebug.LinkFileList
+c0000000052EEDB9E0000000000000165
+t1391385502
+s357
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c0000000052EEDB9E00000000000001A5
+t1391385502
+s421
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp
+c00000000521349660000000000000158
+t1376995686
+s344
+i"ofMain.h"
+i"ofApp.h"
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp
+c0000000052EEDB980000000000000651
+t1391385496
+s1617
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.h
+c0000000052EED9EC0000000000000113
+t1391385068
+s275
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/ofMain.h
+c0000000052134969000000000000070A
+t1376995689
+s1802
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c0000000052EA7DB10000000001FE46D0
+t1391099313
+s33441488
+
+NopenFrameworks-Info.plist
+c00000000520F42A400000000000002A5
+t1376731812
+s677
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba4abb1e139fb841^3facbb1e139fb841^---0#1#0#--18"Check dependencies36"BC1FCD95-FB35-4942-9CB1-6CC5283FEAF5-
+
+CCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413078302.749735
+e413078303.898682
+r1
+xCompileC
+xDerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp1422c01e139fb841^c30fe61f139fb841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp0000000000000000^3556"CompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/marioAlgoDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o36"8A16272A-CE47-46E4-9728-CE22C99EE3E0-
+
+CCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413078302.749726
+e413078303.797489
+r0
+xCompileC
+xDerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:21:2: error: use of undeclared identifier 'background'; did you mean 'ofBackground'?
+o        background(0);
+o        ^~~~~~~~~~
+o        ofBackground
+o../../../libs/openFrameworks/graphics/ofGraphics.h:151:6: note: 'ofBackground' declared here
+ovoid ofBackground(int brightness, int alpha = 255);
+o     ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:27:11: error: use of undeclared identifier 'mousePoint'
+o        ofCircle(mousePoint, 1);
+o                 ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:72:8: error: redefinition of 'x' with a different type: 'float' vs 'int'
+o        float x = 2*area/r.height;
+o              ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:38:30: note: previous definition is here
+ovoid ofApp::mousePressed(int x, int y, int button){
+o                             ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:72:20: error: member reference base type 'float' is not a structure or union
+o        float x = 2*area/r.height;
+o                         ~^~~~~~~
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:74:12: error: member reference base type 'float' is not a structure or union
+o        p = (a+b+r.width) / 2;
+o                 ~^~~~~~
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:76:8: error: redefinition of 'y' with a different type: 'float' vs 'int'
+o        float y = 2*area/width;
+o              ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:38:37: note: previous definition is here
+ovoid ofApp::mousePressed(int x, int y, int button){
+o                                    ^
+o6 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0322c01e139fb841^6c25cc1f139fb841^-1936"clang: warning: -lpthread: 'linker' input unused/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:21:2: error: use of undeclared identifier 'background'; did you mean 'ofBackground'?        background(0);        ^~~~~~~~~~        ofBackground../../../libs/openFrameworks/graphics/ofGraphics.h:151:6: note: 'ofBackground' declared herevoid ofBackground(int brightness, int alpha = 255);     ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:27:11: error: use of undeclared identifier 'mousePoint'        ofCircle(mousePoint, 1);                 ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:72:8: error: redefinition of 'x' with a different type: 'float' vs 'int'        float x = 2*area/r.height;              ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:38:30: note: previous definition is herevoid ofApp::mousePressed(int x, int y, int button){                             ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:72:20: error: member reference base type 'float' is not a structure or union        float x = 2*area/r.height;                         ~^~~~~~~/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:74:12: error: member reference base type 'float' is not a structure or union        p = (a+b+r.width) / 2;                 ~^~~~~~/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:76:8: error: redefinition of 'y' with a different type: 'float' vs 'int'        float y = 2*area/width;              ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp:38:37: note: previous definition is herevoid ofApp::mousePressed(int x, int y, int button){                                    ^6 errors generated.6(36%IDEClangDiagnosticActivityLogMessage2@71"Use of undeclared identifier 'background'; did you mean 'ofBackground'?-413078303#18446744073709551615#0#1(2@28"'ofBackground' declared here-413078303#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h0000000000000000^150#5#150#5#5133#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^20#1#20#1#422#0#14"Semantic Issue1(3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^20#1#20#11#422#10#-2@41"Use of undeclared identifier 'mousePoint'-413078303#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^26#10#26#10#538#0#14"Semantic Issue--2@59"Redefinition of 'x' with a different type: 'float' vs 'int'-413078303#18446744073709551615#0#1(2@27"Previous definition is here-413078303#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^37#29#37#29#743#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^71#7#71#7#1472#0#14"Semantic Issue--2@62"Member reference base type 'float' is not a structure or union-413078303#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^71#19#71#19#1484#0#14"Semantic Issue2(3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^71#18#71#19#1483#0#3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^71#20#71#26#1485#0#-2@62"Member reference base type 'float' is not a structure or union-413078303#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^73#11#73#11#1506#0#14"Semantic Issue2(3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^73#10#73#11#1505#0#3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^73#12#73#17#1507#0#-2@59"Redefinition of 'y' with a different type: 'float' vs 'int'-413078303#18446744073709551615#0#1(2@27"Previous definition is here-413078303#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^37#36#37#36#750#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^75#7#75#7#1565#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^3562"CompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/marioAlgoDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o36"154D497E-7DD4-4748-BCC6-8ECBE79E2F09-
+
+CLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug normal i386
+r0
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework
+r0
+
+CPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s413078302.738166
+e413078302.741654
+r1
+xProcessInfoPlistFile
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.pliste717bd1e139fb841^90ddbd1e139fb841^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/openFrameworks-Info.plist0000000000000000^501"ProcessInfoPlistFile bin/marioAlgoDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist36"C97161D2-C5A9-47E8-99A9-1903F9F4190D-
+
+CTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app
+r0
+

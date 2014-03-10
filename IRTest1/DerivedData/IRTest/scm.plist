@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxEtherdream</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxIlda</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxLibdc</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxIpVideoGrabber</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxControlPanel</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2014-02-07T18:10:35Z</date>
+	<key>MissingFilePaths</key>
+	<array>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-difference-columns/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-flow-keypoints/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-kalman/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-estimate-affine/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/examples/empty/emptyExample/src/testApp.cpp</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-ar/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-difference/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-homography/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-empty/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-edge/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-gesture/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-flow-distort/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-contours-basic/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-contours-tracking/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/examples/empty/emptyExample/bin/emptyExampleDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/examples/empty/emptyExample/src/testApp.h</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-coherent-lines/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-face/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-contours-color/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-contours-quad/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-face-follow/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-face-zoom/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-contours-advanced/bin/ofAppDebug.app</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/example-contours-following/bin/ofAppDebug.app</string>
+	</array>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>

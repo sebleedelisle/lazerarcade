@@ -1,0 +1,486 @@
+TaudioReadTest2
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/Info.plist openFrameworks-Info.plist
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C1D6AE00000000000000AA
+t1371657902
+s170
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000500B633B000000000001A480
+t1342923579
+s107648
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005236231100000000000065B0
+t1379279633
+s26032
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000519F43A300000000023F11D0
+t1369392035
+s37687760
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000500B62FA000000000000BAA0
+t1342923514
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236231200000000003B2500
+t1379279634
+s3876096
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052362312000000000010BB70
+t1379279634
+s1096560
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000519F442E0000000000656060
+t1369392174
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000500B6300000000000000D4F0
+t1342923520
+s54512
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514766340000000000081CB0
+t1363633716
+s531632
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000523623140000000000130950
+t1379279636
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052362316000000000002DAD0
+t1379279638
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005236231700000000004A2E10
+t1379279639
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000523623170000000000322E20
+t1379279639
+s3288608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp
+c0000000052332AFC0000000000001EB4
+t1379085052
+s7860
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp
+c00000000521A43D9000000000000041A
+t1377453017
+s1050
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp
+c000000005256B105000000000000329E
+t1381413125
+s12958
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp
+c00000000521A43D900000000000005DE
+t1377453017
+s1502
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp
+c00000000525C28E6000000000000123A
+t1381771494
+s4666
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp
+c00000000525BFD360000000000001227
+t1381760310
+s4647
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp
+c00000000521349620000000000001397
+t1376995682
+s5015
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp
+c00000000525C28E60000000000000EC4
+t1381771494
+s3780
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx/GLUT.framework
+c000000005213496900000000000000CC
+t1376995689
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c00000000521349690000000000093570
+t1376995689
+s603504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/audioReadTest2Debug.LinkFileList
+c0000000052F68D8600000000000008B8
+t1391889798
+s2232
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c0000000052F68D8600000000000001A5
+t1391889798
+s421
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/MacOS/audioReadTest2Debug
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp
+c0000000052EC19F40000000000000CF7
+t1391204852
+s3319
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp
+c0000000052EA3D7D0000000000000158
+t1391082877
+s344
+i"ofMain.h"
+i"ofApp.h"
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp
+c0000000052F68D8500000000000020C4
+t1391889797
+s8388
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.h
+c0000000052F68D850000000000000528
+t1391889797
+s1320
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/ofMain.h
+c0000000052134969000000000000070A
+t1376995689
+s1802
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c0000000052EA7DB10000000001FE46D0
+t1391099313
+s33441488
+
+NopenFrameworks-Info.plist
+c00000000520F42A700000000000002A5
+t1376731815
+s677
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies446c5006c5a6b841^07ee5006c5a6b841^---0#1#0#--18"Check dependencies36"D2C032DF-7FD8-44A1-AB1E-52036EE80B57-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334745
+e413582601.268017
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp300e5606c5a6b841^f4a84409c5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp0000000000000000^3763"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.o src/AudioSample.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/AudioSample.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/AudioSample.o36"746BFAF4-E133-431C-9076-E7B4C5EF0357-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334707
+e413582602.059328
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cppd61a5606c5a6b841^12330f0ac5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp0000000000000000^3721"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/main.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/main.o36"A78DF1C6-4B26-4C03-8F9E-978278718D56-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334675
+e413582601.958349
+r0
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:249:2: warning: '/*' within block comment [-Wcomment]
+o        /*
+o        ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:294:20: error: use of undeclared identifier 'leftPeakPreview'
+o                for(int i = 0; i<leftPeakPreview.numSamples/2; i++) {
+o                                 ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:300:29: error: use of undeclared identifier 'rightPeakPreview'
+o                        else if(samplerightindex>rightPeakPreview.numSamples) break;
+o                                                 ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:302:17: error: use of undeclared identifier 'leftPeakPreview'
+o                        leftsample = leftPeakPreview.samples[i];
+o                                     ^
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:303:18: error: use of undeclared identifier 'rightPeakPreview'
+o                        rightsample = rightPeakPreview.samples[samplerightindex];
+o                                      ^
+o1 warning and 4 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cppb2135606c5a6b841^0abbfc09c5a6b841^-1325"clang: warning: -lpthread: 'linker' input unused/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:249:2: warning: '/*' within block comment [-Wcomment]        /*        ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:294:20: error: use of undeclared identifier 'leftPeakPreview'                for(int i = 0; i<leftPeakPreview.numSamples/2; i++) {                                 ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:300:29: error: use of undeclared identifier 'rightPeakPreview'                        else if(samplerightindex>rightPeakPreview.numSamples) break;                                                 ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:302:17: error: use of undeclared identifier 'leftPeakPreview'                        leftsample = leftPeakPreview.samples[i];                                     ^/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp:303:18: error: use of undeclared identifier 'rightPeakPreview'                        rightsample = rightPeakPreview.samples[samplerightindex];                                      ^1 warning and 4 errors generated.5(36%IDEClangDiagnosticActivityLogMessage2@25"'/*' within block comment-413582601#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@105"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp0000000000000000^248#1#248#1#5988#0#29"Lexical or Preprocessor Issue--2@46"Use of undeclared identifier 'leftPeakPreview'-413582601#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp0000000000000000^293#19#293#19#6784#0#14"Semantic Issue--2@47"Use of undeclared identifier 'rightPeakPreview'-413582601#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp0000000000000000^299#28#299#28#6957#0#14"Semantic Issue--2@46"Use of undeclared identifier 'leftPeakPreview'-413582601#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp0000000000000000^301#16#301#16#7013#0#14"Semantic Issue--2@47"Use of undeclared identifier 'rightPeakPreview'-413582601#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp0000000000000000^302#17#302#17#7058#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@105"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp0000000000000000^3727"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/src/ofApp.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofApp.o36"641BA11E-58B9-4F66-8FCF-379392F7DFC7-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334912
+e413582601.698434
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp55345606c5a6b841^5ad9b209c5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp0000000000000000^3803"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.o ../../../addons/ofxGui/src/ofxBaseGui.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxBaseGui.o36"9DC391D2-DE4F-4FBC-9CAF-ED6C115A38E1-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334802
+e413582601.668971
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp2b325606c5a6b841^3e40ab09c5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp0000000000000000^3797"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.o ../../../addons/ofxGui/src/ofxButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxButton.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxButton.o36"0B0265AF-E2F3-4C8E-AF68-2A425C029B4F-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334949
+e413582602.563823
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp410e5606c5a6b841^e756900ac5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp0000000000000000^3809"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.o ../../../addons/ofxGui/src/ofxGuiGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxGuiGroup.o36"E47A5A70-6C9D-4B25-B4C2-3733F0CA82C2-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.334968
+e413582601.611261
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp90325606c5a6b841^f6799c09c5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp0000000000000000^3791"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.o ../../../addons/ofxGui/src/ofxLabel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxLabel.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxLabel.o36"BCAF946D-13EE-41BA-8FF1-16718DE43C8A-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582598.335098
+e413582601.863265
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp0e2d5606c5a6b841^3bfddc09c5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp0000000000000000^3791"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.o ../../../addons/ofxGui/src/ofxPanel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxPanel.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxPanel.o36"F6FFCBE5-71C4-4081-92EA-3DA809005D45-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582601.269353
+e413582603.873985
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp37194509c5a6b841^59c1df0bc5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp0000000000000000^3797"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.o ../../../addons/ofxGui/src/ofxSlider.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSlider.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSlider.o36"78BC8407-842E-4BD9-B72D-9AF53EDFBF3B-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582601.612708
+e413582604.176247
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp3f009d09c5a6b841^53222d0cc5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp0000000000000000^3827"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.o ../../../addons/ofxGui/src/ofxSliderGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxSliderGroup.o36"3B09E5FA-7C5D-4118-9AB8-6A5F3E54F061-
+
+CCompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413582601.670284
+e413582603.169501
+r1
+xCompileC
+xDerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cppf5bcab09c5a6b841^f9662b0bc5a6b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp0000000000000000^3797"CompileC DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.o ../../../addons/ofxGui/src/ofxToggle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/audioReadTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/../../../addons/ofxGui/src/ofxToggle.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Objects-normal/i386/ofxToggle.o36"5D71B3B3-7B56-499F-A508-D4A4D0E61A1C-
+
+CLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/MacOS/audioReadTest2Debug normal i386
+r0
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/audioReadTest2Debug.app/Contents/Frameworks/GLUT.framework
+r0
+
+CPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/DerivedData/audioReadTest1/Build/Intermediates/audioReadTest2.build/Debug/audioReadTest2.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/Info.plist openFrameworks-Info.plist
+s413582598.323921
+e413582598.326857
+r1
+xProcessInfoPlistFile
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plistce005306c5a6b841^b4ac5306c5a6b841^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/openFrameworks-Info.plist0000000000000000^531"ProcessInfoPlistFile bin/audioReadTest2Debug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app/Contents/Info.plist36"E7739D6A-5310-4656-87DE-398464FAF8AE-
+
+CTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioReadTest2/bin/audioReadTest2Debug.app
+r0
+

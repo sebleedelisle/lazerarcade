@@ -1,0 +1,262 @@
+TmultilaterationTest
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cCompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C1D6AE00000000000000AA
+t1371657902
+s170
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000500B633B000000000001A480
+t1342923579
+s107648
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005236231100000000000065B0
+t1379279633
+s26032
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000519F43A300000000023F11D0
+t1369392035
+s37687760
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000500B62FA000000000000BAA0
+t1342923514
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236231200000000003B2500
+t1379279634
+s3876096
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052362312000000000010BB70
+t1379279634
+s1096560
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000519F442E0000000000656060
+t1369392174
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000500B6300000000000000D4F0
+t1342923520
+s54512
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514766340000000000081CB0
+t1363633716
+s531632
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000523623140000000000130950
+t1379279636
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052362316000000000002DAD0
+t1379279638
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005236231700000000004A2E10
+t1379279639
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000523623170000000000322E20
+t1379279639
+s3288608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/../../../libs/glut/lib/osx/GLUT.framework
+c000000005213496900000000000000CC
+t1376995689
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c00000000521349690000000000093570
+t1376995689
+s603504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/multilaterationTestDebug.LinkFileList
+c0000000052EA39CB0000000000000290
+t1391081931
+s656
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c0000000052EA39CB00000000000001A5
+t1391081931
+s421
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/MacOS/multilaterationTestDebug
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp
+c0000000052EA39640000000000000080
+t1391081828
+s128
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp
+c00000000521349670000000000000158
+t1376995687
+s344
+i"ofMain.h"
+i"ofApp.h"
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp
+c0000000052E932900000000000001A93
+t1391014544
+s6803
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.h
+c0000000052EA39CA00000000000003EE
+t1391081930
+s1006
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/ofMain.h
+c0000000052134969000000000000070A
+t1376995689
+s1802
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c00000000529F1F160000000001FE46D0
+t1386159894
+s33441488
+
+NopenFrameworks-Info.plist
+c00000000520F42A700000000000002A5
+t1376731815
+s677
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9fcb184b719ab841^aa44194b719ab841^---0#1#0#--18"Check dependencies36"BE70F28D-F403-4D80-827A-7F7DBCA3E662-
+
+CCompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412774731.115694
+e412774731.147050
+r0
+xCompileC
+xDerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp:9:
+osrc/AudioBuffer.h:14:2: error: unknown type name 'vector'
+o        vector <float> samples;
+o        ^
+osrc/AudioBuffer.h:14:9: error: expected member name or ';' after declaration specifiers
+o        vector <float> samples;
+o        ~~~~~~ ^
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cppb5dc1d4b719ab841^d7a2254b719ab841^-430"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp:9:src/AudioBuffer.h:14:2: error: unknown type name 'vector'        vector <float> samples;        ^src/AudioBuffer.h:14:9: error: expected member name or ';' after declaration specifiers        vector <float> samples;        ~~~~~~ ^2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@26"Unknown type name 'vector'-412774731#18446744073709551615#0#1(2@123"In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp:9:-412774731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp0000000000000000^8#9#8#9#112#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@112"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.h0000000000000000^13#1#13#1#136#0#11"Parse Issue--2@56"Expected member name or ';' after declaration specifiers-412774731#18446744073709551615#0#1(2@123"In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp:9:-412774731#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp0000000000000000^8#9#8#9#112#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@112"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.h0000000000000000^13#8#13#8#143#0#11"Parse Issue1(3@112"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.h0000000000000000^13#1#13#7#136#0#-0#0#0#-19%DVTDocumentLocation4@114"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp0000000000000000^3906"CompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.o src/AudioBuffer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/multilaterationTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/AudioBuffer.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/AudioBuffer.o36"8202A02A-3A35-4983-B9F3-68F8DA90EB3E-
+
+CCompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412774731.115708
+e412774732.659489
+r1
+xCompileC
+xDerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp16de1d4b719ab841^59dba84c719ab841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp0000000000000000^3864"CompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/multilaterationTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/main.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/main.o36"02F60BE4-09A0-4FF9-B136-55F15068EF20-
+
+CCompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s412774731.115702
+e412774732.659448
+r1
+xCompileC
+xDerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cppc4e81d4b719ab841^e0d7a84c719ab841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp0000000000000000^3870"CompileC DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/multilaterationTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/src/ofApp.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Objects-normal/i386/ofApp.o36"60129FB0-D375-4404-B285-B05997D10DB3-
+
+CLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/MacOS/multilaterationTestDebug normal i386
+r0
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/multilaterationTestDebug.app/Contents/Frameworks/GLUT.framework
+r0
+
+CPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/DerivedData/multilaterationTest/Build/Intermediates/multilaterationTest.build/Debug/multilaterationTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s412774731.104412
+e412774731.107703
+r1
+xProcessInfoPlistFile
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plist02d61a4b719ab841^70951b4b719ab841^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/openFrameworks-Info.plist0000000000000000^555"ProcessInfoPlistFile bin/multilaterationTestDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app/Contents/Info.plist36"1558A32B-C53E-43A2-AC73-4AE5B5C01E99-
+
+CTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/audioInputExample/bin/multilaterationTestDebug.app
+r0
+

@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title></title>
+<style type="text/css"> 
+	body {
+		background-color: #000000;
+		margin: 0px;
+		text-align:center;
+	}
+	canvas {
+		background-color:#111133;
+	}
+
+</style>
+
+
+</head>
+<body>
+<script src="dat.gui.js"> </script>
+<script>
+
+
+var Vector2 = function (x,y) {
+	this.x= x || 0; 
+	this.y = y || 0; 
+};
+
+Vector2.prototype = {
+
+	reset: function ( x, y ) {
+
+		this.x = x;
+		this.y = y;
+
+		return this;
+	},
+
+	toString : function (decPlaces) {
+	 	decPlaces = decPlaces || 3; 
+		var scalar = Math.pow(10,decPlaces); 
+		return "[" + Math.round (this.x * scalar) / scalar + ", " + Math.round (this.y * scalar) / scalar + "]";
+	},
+	
+	clone : function () {
+		return new Vector2(this.x, this.y);
+	},
+	
+	copyTo : function (v) {
+		v.x = this.x;
+		v.y = this.y;
+	},
+	
+	copyFrom : function (v) {
+		this.x = v.x;
+		this.y = v.y;
+	},	
+	
+	magnitude : function () {
+		return Math.sqrt((this.x*this.x)+(this.y*this.y));
+	},
+	
+	magnitudeSquared : function () {
+		return (this.x*this.x)+(this.y*this.y);
+	},
+	
+	normalise : function () {
+		
+		var m = this.magnitude();
+				
+		this.x = this.x/m;
+		this.y = this.y/m;
+
+		return this;	
+	},
+	
+	plusEq : function (v) {
+		this.x+=v.x;
+		this.y+=v.y;
+		
+		return this; 
+	},
+	
+	plusNew : function (v) {
+		 return new Vector2(this.x+v.x, this.y+v.y); 
+	},
+	
+	minusEq : function (v) {
+		this.x-=v.x;
+		this.y-=v.y;
+		
+		return this; 
+	},
+
+	minusNew : function (v) {
+	 	return new Vector2(this.x-v.x, this.y-v.y); 
+	},	
+	
+	multiplyEq : function (scalar) {
+		this.x*=scalar;
+		this.y*=scalar;
+		
+		return this; 
+	},
+	
+	multiplyNew : function (scalar) {
+		var returnvec = this.clone();
+		return returnvec.multiplyEq(scalar);
+	},
+	
+	divideEq : function (scalar) {
+		this.x/=scalar;
+		this.y/=scalar;
+		return this; 
+	},
+	
+	divideNew : function (scalar) {
+		var returnvec = this.clone();
+		return returnvec.divideEq(scalar);
+	},
+
+		
+	equals : function (v) {
+		return((this.x==v.x)&&(this.y==v.x));
+	},
+
+	isMagLessThan : function (distance) {
+		return(this.magnitudeSquared()<distance*distance);
+	},
+	
+	isMagGreaterThan : function (distance) {
+		return(this.magnitudeSquared()>distance*distance);
+	}
+	
+
+
+};
+
+
+
+
+
+//--------------------------------------------------------------
+
+
+var settings = {}; 
+settings.errorMargin = 0; 
+settings.anchorSpeed = 0.2; 
+settings.anchorDamping = 0.5; 
+settings.targetSpeed = 0.3;
+settings.targetDamping = 0.3;//0.6; 
+
+window.onload = function() {
+  
+	var gui = new dat.GUI();
+	gui.add(settings, 'errorMargin', 0,200);
+	gui.add(settings, 'anchorSpeed', 0.01,1);
+	gui.add(settings, 'anchorDamping', 0,1);
+	gui.add(settings, 'targetSpeed', 0.01,1);
+	gui.add(settings, 'targetDamping', 0,1);
+};
+
+
+
+
+
+// canvas element and 2D context
+var canvas = document.createElement( 'canvas' ),
+	context = canvas.getContext( '2d' );
+
+canvas.width = window.innerWidth; 
+canvas.height = window.innerHeight; 
+document.body.appendChild(canvas);
+
+c = context; 
+
+setInterval(loop, 1000/60); 
+
+var  mics = [], 
+	tdoas = [],
+	tdoaPoints = [],
+	velocities = [];
+
+var mouseClickPoint = new Vector2(400,300);
+var calculatedPoint = new Vector2(400,300);
+
+var calcPointVel = new Vector2();
+
+var framesUntilSettled = 0;
+var settled = true;
+
+
+mics.push(new Vector2(100,100));
+mics.push(new Vector2(700,100));
+mics.push(new Vector2(700,500));
+mics.push(new Vector2(100,500));
+tdoaPoints.push(new Vector2(100,100));
+tdoaPoints.push(new Vector2(700,100));
+tdoaPoints.push(new Vector2(700,500));
+tdoaPoints.push(new Vector2(100,500));
+
+velocities.push(new Vector2());
+velocities.push(new Vector2());
+velocities.push(new Vector2());
+velocities.push(new Vector2());
+
+window.addEventListener("mousedown", onMouseDown); 
+
+
+function loop() { 
+
+	c.fillStyle = 'rgba(0,0,0,0.4)'; 
+	c.fillRect(0,0,canvas.width, canvas.height); 
+
+
+	if(!settled) {
+
+		var averagedistance = 0;
+
+		// each tdoa point needs to be attracted to the centre point, but
+		// also restricted to the radius of their TDOA
+
+		for(var i = 0; i<4; i++) {
+			
+			velocities[i].multiplyEq(settings.anchorDamping);
+			var diff = calculatedPoint.minusNew(tdoaPoints[i]) ;
+			diff.multiplyEq(settings.anchorSpeed); 
+			
+			velocities[i].plusEq(diff) 
+			
+			tdoaPoints[i].plusEq(velocities[i]);
+			tdoaPoints[i].minusEq(mics[i]);
+
+			tdoaPoints[i].normalise();
+			tdoaPoints[i].multiplyEq(tdoas[i]);
+			tdoaPoints[i].plusEq(mics[i]);
+
+			diff.copyFrom(tdoaPoints[i]); 
+			diff.minusEq(calculatedPoint); 
+			
+			averagedistance += diff.magnitude(); 
+
+		}
+
+		averagedistance/=4;
+
+		calcPointVel.multiplyEq(settings.targetDamping);
+
+		// then each distance between the constrained TDOA points and the calculated position
+		// wants to be the same - so compare to the average distance and expand / contract.
+
+		for(var i = 0; i<4; i++) {
+
+			var distance = tdoaPoints[i].minusNew(calculatedPoint).magnitude();
+		
+			var target = calculatedPoint.minusNew(tdoaPoints[i]);
+			target.multiplyEq(averagedistance / distance);
+			target.plusEq(tdoaPoints[i]);
+
+			var diff = target.minusNew(calculatedPoint);
+			diff.multiplyEq(settings.targetSpeed); 
+			calcPointVel.plusEq(diff);
+		}
+
+		if(calcPointVel.isMagLessThan(0.001)) {
+			//settled = true; 			
+		}
+
+		calculatedPoint.plusEq(calcPointVel);
+		/*
+		if(calculatedPoint.x<mics[0].x) {
+			calculatedPoint.x = mics[0].x; 
+			calcPointVel.x = 0; 
+		} else if(calculatedPoint.x>mics[1].x) {
+			calculatedPoint.x = mics[1].x; 
+			calcPointVel.x = 0; 
+		}
+		if(calculatedPoint.y<mics[0].y) {
+			calculatedPoint.y = mics[0].y; 
+			calcPointVel.y = 0; 
+		} else if(calculatedPoint.y>mics[2].y) {
+			calculatedPoint.y = mics[2].y; 
+			calcPointVel.y = 0; 
+		}*/
+		
+		framesUntilSettled ++; 
+	}
+	
+	c.strokeStyle = 'white'; 
+	c.lineWidth = 1; 
+	c.strokeRect(100,100,600,400); 
+	circle(mouseClickPoint, 1); 
+	circle(calculatedPoint, 5); 
+	
+	
+	for(var i = 0; i<4; i++) {
+
+		
+		c.strokeStyle = 'rgba(255,255,255,0.1)'; 
+
+		circle(mics[i], tdoas[i]);
+
+		c.strokeStyle = 'rgba(255,255,255,0.4)'; 
+
+		circle(tdoaPoints[i], 2);
+
+		c.strokeStyle = 'rgba(255,255,255,0.2)'; 
+		
+		c.beginPath(); 
+		c.moveTo(calculatedPoint.x,calculatedPoint.y);
+		c.lineTo(tdoaPoints[i].x, tdoaPoints[i].y); 
+		c.lineTo(mics[i].x,  mics[i].y);
+		
+		c.stroke();
+
+	}
+	c.fillStyle = 'rgba(255,255,255,1)'; 
+
+	c.fillText(framesUntilSettled, 10,10); 
+	
+}
+
+
+function circle(pos, radius) { 
+
+	c.beginPath(); 
+	c.arc(pos.x, pos.y, Math.abs(radius), 0, Math.PI*2, true); 
+	c.stroke(); 
+
+
+}
+
+function onMouseDown(e) { 
+	
+	if((e.x>700) || (e.x<100) || (e.y<100) || (e.y>500)) return; 
+	
+	mouseClickPoint.reset(e.x, e.y); 
+	calculatedPoint.reset(400,300); 
+
+
+	var closest = 20000;
+	var closestindex = -1;
+
+	for(var i = 0; i<4; i++) {
+
+		var distance = mics[i].minusNew(mouseClickPoint).magnitude();
+		if(distance<closest) {
+			closest = distance;
+			closestindex = i;
+		}
+	}
+	
+	//calculatedPoint.copyFrom(mics[closestindex]); 
+
+	tdoas = []
+	for(var i = 0; i<4; i++) {
+		var distance = mics[i].minusNew(mouseClickPoint).magnitude() - closest;
+		if((distance > 0) && (Math.random()<0.5 )) distance += Math.random() * (settings.errorMargin*2) -settings.errorMargin;
+		tdoas.push(distance);
+		
+	}
+
+	framesUntilSettled = 0;
+	settled = false; 
+	
+}
+
+
+</script>
+</body>
+</html>

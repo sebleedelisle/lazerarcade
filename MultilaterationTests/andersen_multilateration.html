@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://dl.dropboxusercontent.com/u/764149/MultilaterationJS/andersen_multilateration.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta charset="utf-8">
+<title></title>
+<style type="text/css"> 
+	body {
+		background-color: #000000;
+		margin: 0px;
+		text-align:center;
+	}
+	canvas {
+		background-color:#111133;
+	}
+
+</style>
+
+
+<style type="text/css">.dg {
+  /** Clear list styles */
+  /* Auto-place container */
+  /* Auto-placed GUI's */
+  /* Line items that don't contain folders. */
+  /** Folder names */
+  /** Hides closed items */
+  /** Controller row */
+  /** Name-half (left) */
+  /** Controller-half (right) */
+  /** Controller placement */
+  /** Shorter number boxes when slider is present. */
+  /** Ensure the entire boolean and function row shows a hand */ }
+  .dg ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    clear: both; }
+  .dg.ac {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    z-index: 0; }
+  .dg:not(.ac) .main {
+    /** Exclude mains in ac so that we don't hide close button */
+    overflow: hidden; }
+  .dg.main {
+    -webkit-transition: opacity 0.1s linear;
+    -o-transition: opacity 0.1s linear;
+    -moz-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear; }
+    .dg.main.taller-than-window {
+      overflow-y: auto; }
+      .dg.main.taller-than-window .close-button {
+        opacity: 1;
+        /* TODO, these are style notes */
+        margin-top: -1px;
+        border-top: 1px solid #2c2c2c; }
+    .dg.main ul.closed .close-button {
+      opacity: 1 !important; }
+    .dg.main:hover .close-button,
+    .dg.main .close-button.drag {
+      opacity: 1; }
+    .dg.main .close-button {
+      /*opacity: 0;*/
+      -webkit-transition: opacity 0.1s linear;
+      -o-transition: opacity 0.1s linear;
+      -moz-transition: opacity 0.1s linear;
+      transition: opacity 0.1s linear;
+      border: 0;
+      position: absolute;
+      line-height: 19px;
+      height: 20px;
+      /* TODO, these are style notes */
+      cursor: pointer;
+      text-align: center;
+      background-color: #000; }
+      .dg.main .close-button:hover {
+        background-color: #111; }
+  .dg.a {
+    float: right;
+    margin-right: 15px;
+    overflow-x: hidden; }
+    .dg.a.has-save > ul {
+      margin-top: 27px; }
+      .dg.a.has-save > ul.closed {
+        margin-top: 0; }
+    .dg.a .save-row {
+      position: fixed;
+      top: 0;
+      z-index: 1002; }
+  .dg li {
+    -webkit-transition: height 0.1s ease-out;
+    -o-transition: height 0.1s ease-out;
+    -moz-transition: height 0.1s ease-out;
+    transition: height 0.1s ease-out; }
+  .dg li:not(.folder) {
+    cursor: auto;
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+    padding: 0 4px 0 5px; }
+  .dg li.folder {
+    padding: 0;
+    border-left: 4px solid rgba(0, 0, 0, 0); }
+  .dg li.title {
+    cursor: pointer;
+    margin-left: -4px; }
+  .dg .closed li:not(.title),
+  .dg .closed ul li,
+  .dg .closed ul li > * {
+    height: 0;
+    overflow: hidden;
+    border: 0; }
+  .dg .cr {
+    clear: both;
+    padding-left: 3px;
+    height: 27px; }
+  .dg .property-name {
+    cursor: default;
+    float: left;
+    clear: left;
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .dg .c {
+    float: left;
+    width: 60%; }
+  .dg .c input[type=text] {
+    border: 0;
+    margin-top: 4px;
+    padding: 3px;
+    width: 100%;
+    float: right; }
+  .dg .has-slider input[type=text] {
+    width: 30%;
+    /*display: none;*/
+    margin-left: 0; }
+  .dg .slider {
+    float: left;
+    width: 66%;
+    margin-left: -5px;
+    margin-right: 0;
+    height: 19px;
+    margin-top: 4px; }
+  .dg .slider-fg {
+    height: 100%; }
+  .dg .c input[type=checkbox] {
+    margin-top: 9px; }
+  .dg .c select {
+    margin-top: 5px; }
+  .dg .cr.function,
+  .dg .cr.function .property-name,
+  .dg .cr.function *,
+  .dg .cr.boolean,
+  .dg .cr.boolean * {
+    cursor: pointer; }
+  .dg .selector {
+    display: none;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: 23px;
+    z-index: 10; }
+  .dg .c:hover .selector,
+  .dg .selector.drag {
+    display: block; }
+  .dg li.save-row {
+    padding: 0; }
+    .dg li.save-row .button {
+      display: inline-block;
+      padding: 0px 6px; }
+  .dg.dialogue {
+    background-color: #222;
+    width: 460px;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 15px; }
+
+/* TODO Separate style and structure */
+#dg-new-constructor {
+  padding: 10px;
+  color: #222;
+  font-family: Monaco, monospace;
+  font-size: 10px;
+  border: 0;
+  resize: none;
+  box-shadow: inset 1px 1px 1px #888;
+  word-wrap: break-word;
+  margin: 12px 0;
+  display: block;
+  width: 440px;
+  overflow-y: scroll;
+  height: 100px;
+  position: relative; }
+
+#dg-local-explain {
+  display: none;
+  font-size: 11px;
+  line-height: 17px;
+  border-radius: 3px;
+  background-color: #333;
+  padding: 8px;
+  margin-top: 10px; }
+  #dg-local-explain code {
+    font-size: 10px; }
+
+#dat-gui-save-locally {
+  display: none; }
+
+/** Main type */
+.dg {
+  color: #eee;
+  font: 11px 'Lucida Grande', sans-serif;
+  text-shadow: 0 -1px 0 #111;
+  /** Auto place */
+  /* Controller row, <li> */
+  /** Controllers */ }
+  .dg.main {
+    /** Scrollbar */ }
+    .dg.main::-webkit-scrollbar {
+      width: 5px;
+      background: #1a1a1a; }
+    .dg.main::-webkit-scrollbar-corner {
+      height: 0;
+      display: none; }
+    .dg.main::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: #676767; }
+  .dg li:not(.folder) {
+    background: #1a1a1a;
+    border-bottom: 1px solid #2c2c2c; }
+  .dg li.save-row {
+    line-height: 25px;
+    background: #dad5cb;
+    border: 0; }
+    .dg li.save-row select {
+      margin-left: 5px;
+      width: 108px; }
+    .dg li.save-row .button {
+      margin-left: 5px;
+      margin-top: 1px;
+      border-radius: 2px;
+      font-size: 9px;
+      line-height: 7px;
+      padding: 4px 4px 5px 4px;
+      background: #c5bdad;
+      color: #fff;
+      text-shadow: 0 1px 0 #b0a58f;
+      box-shadow: 0 -1px 0 #b0a58f;
+      cursor: pointer; }
+      .dg li.save-row .button.gears {
+        background: #c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;
+        height: 7px;
+        width: 8px; }
+      .dg li.save-row .button:hover {
+        background-color: #bab19e;
+        box-shadow: 0 -1px 0 #b0a58f; }
+  .dg li.folder {
+    border-bottom: 0; }
+  .dg li.title {
+    padding-left: 16px;
+    background: black url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  .dg .closed li.title {
+    background-image: url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==); }
+  .dg .cr.boolean {
+    border-left: 3px solid #806787; }
+  .dg .cr.function {
+    border-left: 3px solid #e61d5f; }
+  .dg .cr.number {
+    border-left: 3px solid #2fa1d6; }
+    .dg .cr.number input[type=text] {
+      color: #2fa1d6; }
+  .dg .cr.string {
+    border-left: 3px solid #1ed36f; }
+    .dg .cr.string input[type=text] {
+      color: #1ed36f; }
+  .dg .cr.function:hover, .dg .cr.boolean:hover {
+    background: #111; }
+  .dg .c input[type=text] {
+    background: #303030;
+    outline: none; }
+    .dg .c input[type=text]:hover {
+      background: #3c3c3c; }
+    .dg .c input[type=text]:focus {
+      background: #494949;
+      color: #fff; }
+  .dg .c .slider {
+    background: #303030;
+    cursor: ew-resize; }
+  .dg .c .slider-fg {
+    background: #2fa1d6; }
+  .dg .c .slider:hover {
+    background: #3c3c3c; }
+    .dg .c .slider:hover .slider-fg {
+      background: #44abda; }
+</style></head>
+<body>
+<script src="./andersen_multilateration_files/dat.gui.js"> </script>
+<script src="./andersen_multilateration_files/numeric-1.2.6.js"></script>
+
+<script>
+
+
+var Vector2 = function (x,y) {
+	this.x= x || 0; 
+	this.y = y || 0; 
+};
+
+Vector2.prototype = {
+
+	reset: function ( x, y ) {
+
+		this.x = x;
+		this.y = y;
+
+		return this;
+	},
+
+	toString : function (decPlaces) {
+	 	decPlaces = decPlaces || 3; 
+		var scalar = Math.pow(10,decPlaces); 
+		return "[" + Math.round (this.x * scalar) / scalar + ", " + Math.round (this.y * scalar) / scalar + "]";
+	},
+	
+	clone : function () {
+		return new Vector2(this.x, this.y);
+	},
+	
+	copyTo : function (v) {
+		v.x = this.x;
+		v.y = this.y;
+	},
+	
+	copyFrom : function (v) {
+		this.x = v.x;
+		this.y = v.y;
+	},	
+	
+	magnitude : function () {
+		return Math.sqrt((this.x*this.x)+(this.y*this.y));
+	},
+	
+	magnitudeSquared : function () {
+		return (this.x*this.x)+(this.y*this.y);
+	},
+	
+	normalise : function () {
+		
+		var m = this.magnitude();
+				
+		this.x = this.x/m;
+		this.y = this.y/m;
+
+		return this;	
+	},
+	
+	plusEq : function (v) {
+		this.x+=v.x;
+		this.y+=v.y;
+		
+		return this; 
+	},
+	
+	plusNew : function (v) {
+		 return new Vector2(this.x+v.x, this.y+v.y); 
+	},
+	
+	minusEq : function (v) {
+		this.x-=v.x;
+		this.y-=v.y;
+		
+		return this; 
+	},
+
+	minusNew : function (v) {
+	 	return new Vector2(this.x-v.x, this.y-v.y); 
+	},	
+	
+	multiplyEq : function (scalar) {
+		this.x*=scalar;
+		this.y*=scalar;
+		
+		return this; 
+	},
+	
+	multiplyNew : function (scalar) {
+		var returnvec = this.clone();
+		return returnvec.multiplyEq(scalar);
+	},
+	
+	divideEq : function (scalar) {
+		this.x/=scalar;
+		this.y/=scalar;
+		return this; 
+	},
+	
+	divideNew : function (scalar) {
+		var returnvec = this.clone();
+		return returnvec.divideEq(scalar);
+	},
+
+		
+	equals : function (v) {
+		return((this.x==v.x)&&(this.y==v.x));
+	},
+
+	isMagLessThan : function (distance) {
+		return(this.magnitudeSquared()<distance*distance);
+	},
+	
+	isMagGreaterThan : function (distance) {
+		return(this.magnitudeSquared()>distance*distance);
+	},
+	
+	distance : function(v) { 
+		var temp = this.minusNew(v); 
+		return(temp.magnitude()); 
+		
+	}
+
+};
+
+
+
+
+
+//--------------------------------------------------------------
+
+
+var settings = {}; 
+settings.errorMargin = 0; 
+settings.anchorSpeed = 0.2; 
+settings.anchorDamping = 0.5; 
+settings.targetSpeed = 0.3;
+settings.targetDamping = 0.3;//0.6; 
+
+window.onload = function() {
+  
+	var gui = new dat.GUI();
+	gui.add(settings, 'errorMargin', 0,200);
+//	gui.add(settings, 'anchorSpeed', 0.01,1);
+//	gui.add(settings, 'anchorDamping', 0,1);
+//	gui.add(settings, 'targetSpeed', 0.01,1);
+//	gui.add(settings, 'targetDamping', 0,1);
+};
+
+
+
+
+
+// canvas element and 2D context
+var canvas = document.createElement( 'canvas' ),
+	context = canvas.getContext( '2d' );
+
+canvas.width = window.innerWidth; 
+canvas.height = window.innerHeight; 
+document.body.appendChild(canvas);
+
+c = context; 
+
+setInterval(loop, 1000/60); 
+
+var  mics = [], 
+	tdoas = [],
+	tdoaPoints = [],
+	velocities = [], 
+	intersectPoints = []; 
+
+var mouseClickPoint = new Vector2(400,300);
+var calculatedPoint = new Vector2(400,300);
+
+var calcPointVel = new Vector2();
+
+var framesUntilSettled = 0;
+var settled = true;
+
+
+mics.push(new Vector2(100,100));
+mics.push(new Vector2(700,100));
+mics.push(new Vector2(700,500));
+mics.push(new Vector2(100,500));
+tdoaPoints.push(new Vector2(100,100));
+tdoaPoints.push(new Vector2(700,100));
+tdoaPoints.push(new Vector2(700,500));
+tdoaPoints.push(new Vector2(100,500));
+
+velocities.push(new Vector2());
+velocities.push(new Vector2());
+velocities.push(new Vector2());
+velocities.push(new Vector2());
+
+window.addEventListener("mousedown", onMouseDown); 
+
+
+function loop() { 
+
+	c.fillStyle = 'rgba(0,0,0,0.4)'; 
+	c.fillRect(0,0,canvas.width, canvas.height); 
+
+
+	c.strokeStyle = 'white'; 
+	c.lineWidth = 1; 
+	c.strokeRect(100,100,600,400); 
+	circle(mouseClickPoint, 1); 
+	circle(calculatedPoint, 5); 
+	
+	
+	for(var i = 0; i<4; i++) {
+
+		
+		c.strokeStyle = 'rgba(255,255,255,0.1)'; 
+
+		circle(mics[i], tdoas[i]);
+
+		c.strokeStyle = 'rgba(255,255,255,0.4)'; 
+
+		circle(tdoaPoints[i], 2);
+
+		c.strokeStyle = 'rgba(255,255,255,0.2)'; 
+		
+		c.beginPath(); 
+		c.moveTo(calculatedPoint.x,calculatedPoint.y);
+		c.lineTo(tdoaPoints[i].x, tdoaPoints[i].y); 
+		c.lineTo(mics[i].x,  mics[i].y);
+		
+		c.stroke();
+
+	}
+	c.fillStyle = 'rgba(255,255,255,1)'; 
+
+	c.fillText(framesUntilSettled, 10,10); 
+	
+}
+
+
+function circle(pos, radius) { 
+
+	c.beginPath(); 
+	c.arc(pos.x, pos.y, Math.abs(radius), 0, Math.PI*2, true); 
+	c.stroke(); 
+
+
+}
+
+function onMouseDown(e) { 
+	
+	if((e.x>700) || (e.x<100) || (e.y<100) || (e.y>500)) return; 
+	
+	mouseClickPoint.reset(e.x, e.y); 
+	calculatedPoint.reset(400,300); 
+
+
+	var closest = 20000;
+	var closestindex = -1;
+
+	for(var i = 0; i<4; i++) {
+
+		var distance = mics[i].minusNew(mouseClickPoint).magnitude();
+		if(distance<closest) {
+			closest = distance;
+			closestindex = i;
+		}
+	}
+	
+	//calculatedPoint.copyFrom(mics[closestindex]); 
+
+	tdoas = []
+	for(var i = 0; i<4; i++) {
+		var distance = mics[i].minusNew(mouseClickPoint).magnitude() - closest;
+		if((distance > 0) && (Math.random()<0.5 )) distance += Math.random() * (settings.errorMargin*2) -settings.errorMargin;
+		tdoas.push(distance);
+		
+	}
+
+	framesUntilSettled = 0;
+	settled = false; 
+	
+	calculatedPoint.copyFrom(CalculatePointFromTOA(tdoas, mics));
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+// CALCULATE POINT FROM TIME OF ARRIVAL AT 4 SENSORS
+// The labelling of the sensors is as follows
+// A---B
+// |   |
+// D---C
+function CalculatePointFromTOA( tdoa, mics )
+{  
+
+	mics = numeric.transpose( mics.map(function(mic){ return [mic.x,mic.y] }) );
+
+	var c = 0, cDistance, t, v, iRow, A, b, ijs ;
+	var mul = numeric.mul, sub = numeric.sub, transpose = numeric.transpose, pretty = numeric.prettyPrint;
+	tdoa.forEach(function(v,i,a){ if( v < tdoa[c] ) c = i; });
+	cDistance = tdoa[c];
+
+	ijs = numeric.rep([tdoa.length],0).map(function(v,i,a){ return i });
+	ijs.splice(c,1);
+	A = numeric.rep([(tdoa.length-1),2],0);
+	b = numeric.rep([(tdoa.length-1),1],0);
+
+	iRow = 0;
+	console.log("c="+c);
+	for( var i in ijs ){
+		i = ijs[parseInt(i)];
+		for( var j in ijs ){
+			j = ijs[parseInt(j)];
+			if( iRow >= A.length ) break;
+			console.log("i="+i+" j="+j+" row="+iRow);		
+			// 2*( v*(t[j])*(p[:,i]-p[:,c]).T - v*(t[i])*(p[:,j]-p[:,c]).T )
+			setRow( iRow, mul( 2, sub( 
+					mul( tdoa[j], transpose([sub(getCol(i,mics),getCol(c,mics))]) ),  
+					mul( tdoa[i], transpose([sub(getCol(j,mics),getCol(c,mics))]) ) 
+			) ), A );
+				
+			//v*(t[i])*(v*v*(t[j])**2-p[:,j].T*p[:,j]) + \
+			//(v*(t[i])-v*(t[j]))*p[:,c].T*p[:,c] + \
+			//v*(t[j])*(p[:,i].T*p[:,i]-v*v*(t[i])**2)
+			b[iRow] = [ tdoa[i]*( tdoa[j]*tdoa[j] - numeric.dot(getCol(j,mics), getCol(j,mics)) ) + 
+			(tdoa[i]-tdoa[j])*numeric.dot(getCol(c,mics),getCol(c,mics)) + 
+			tdoa[j]*(numeric.dot(getCol(i,mics),getCol(i,mics) )-tdoa[i]*tdoa[i])]; 
+
+			iRow += 1;
+		}
+
+	}
+
+	var solution = svdSolve(A,b);
+	console.log( solution );
+
+	return new Vector2(solution[0][0],solution[1][0]);
+}
+
+function setCol(colIndex,values,matrix){
+	var i,len;
+	if( matrix.length != values.length ) throw new Error("matrix height must be equal to length of column data array"); 
+	for(i=0,len = matrix.length;i<len;i++){
+		matrix[i][colIndex] = values[i];
+	}
+}
+
+function setRow(rowIndex,values,matrix){
+	if( matrix[rowIndex].length != values.length ) throw new Error("matrix width must be equal to length of column data array");  
+	for(var i=0,len = matrix[rowIndex].length;i<len;i++){
+		matrix[rowIndex][i] = values[i][0];
+	}
+}
+
+function getCol(colIndex,matrix){
+	var i, out = [];
+	if( matrix[0].length <= colIndex ) throw new Error("matrix height must be equal to length of column data array"); 
+	for(var i=0,len = matrix.length;i<len;i++){
+		out[i] = matrix[i][colIndex];
+	}
+
+	return out;
+}
+
+function svdSolve(A,b){
+	var A_svd,r,s,ut,d,x;
+
+	A_svd = numeric.svd(A);
+	s = numeric.transpose( [ A_svd.S ] ); 
+	r = 1;
+
+
+	while( r < numeric.dim(A)[1] & s[r] >= Math.max.apply( Math, numeric.dim(A) )*numeric.epsilon*s[0] ) r++; 
+	//might need this is the shape of rows of A and b change
+	//ut = numeric.transpose(  numeric.or( A_svd.U, numeric.rep([4,4],0) ));
+	//ut[3][0] = 1;
+	d = numeric.dot( numeric.transpose( A_svd.U ), b);
+	x = numeric.dot(A_svd.V, numeric.div(d,s) );
+	return x;
+}
+
+
+
+</script><canvas width="1258" height="877"></canvas>
+
+
+<div class="dg ac"><div class="dg main a" style="width: 245px;"><div style="width: 6px; margin-left: -3px; height: 28px; cursor: ew-resize; position: absolute;"></div><ul style="height: auto;"><li class="cr number has-slider"><div><span class="property-name">errorMargin</span><div class="c"><div><input type="text"></div><div class="slider"><div class="slider-fg" style="width: 0%;"></div></div></div></div></li></ul><div class="close-button" style="width: 245px;">Close Controls</div></div></div></body></html>

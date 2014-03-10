@@ -1,0 +1,466 @@
+TIRTest
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C1D6AE00000000000000AA
+t1371657902
+s170
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000500B633B000000000001A480
+t1342923579
+s107648
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005236231100000000000065B0
+t1379279633
+s26032
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000519F43A300000000023F11D0
+t1369392035
+s37687760
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000500B62FA000000000000BAA0
+t1342923514
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236231200000000003B2500
+t1379279634
+s3876096
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052362312000000000010BB70
+t1379279634
+s1096560
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000519F442E0000000000656060
+t1369392174
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000500B6300000000000000D4F0
+t1342923520
+s54512
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514766340000000000081CB0
+t1363633716
+s531632
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000523623140000000000130950
+t1379279636
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052362316000000000002DAD0
+t1379279638
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005236231700000000004A2E10
+t1379279639
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000523623170000000000322E20
+t1379279639
+s3288608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx/GLUT.framework
+c000000005213496900000000000000CC
+t1376995689
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c00000000521349690000000000093570
+t1376995689
+s603504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CanonGrabber.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/IRTestDebug.LinkFileList
+c0000000052F249B700000000000006CD
+t1391610295
+s1741
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/MotionManager.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c0000000052F249B700000000000001A5
+t1391610295
+s421
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/MacOS/IRTestDebug
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp
+c00000000516D278E0000000000000B74
+t1366108046
+s2932
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp
+c00000000526A4D400000000000000833
+t1382698304
+s2099
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp
+c00000000525E8B200000000000000484
+t1381927712
+s1156
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp
+c0000000052A1E1FB0000000000001A8D
+t1386340859
+s6797
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp
+c000000005253E6D1000000000000025B
+t1381230289
+s603
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp
+c000000005253E6F80000000000000327
+t1381230328
+s807
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CanonGrabber.cpp
+c00000000516D0EFC0000000000000473
+t1366101756
+s1139
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/MotionManager.cpp
+c000000005287E47600000000000015EF
+t1384637558
+s5615
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp
+c00000000521349660000000000000158
+t1376995686
+s344
+i"ofMain.h"
+i"ofApp.h"
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp
+c0000000052F249B000000000000001D0
+t1391610288
+s464
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.h
+c0000000052F249B600000000000000D6
+t1391610294
+s214
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/ofMain.h
+c0000000052134969000000000000070A
+t1376995689
+s1802
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c0000000052EA7DB10000000001FE46D0
+t1391099313
+s33441488
+
+NopenFrameworks-Info.plist
+c00000000520F42A400000000000002A5
+t1376731812
+s677
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CanonGrabber.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/MotionManager.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies60ea233781a2b841^6745243781a2b841^---0#1#0#--18"Check dependencies36"C83BE3B7-5143-4C3E-A526-62CF5884FCCF-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159035
+e413303097.445354
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp:10:
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.h:12:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found
+o#include "ofxCv.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cppb9fb283781a2b841^7e1b723981a2b841^-532"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp:10:In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.h:12:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found#include "ofxCv.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp0000000000000000^3558"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.o src/../../SharedCode/Camera/CameraCanon.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraCanon.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraCanon.o36"8E0E9F61-9DC5-4931-B0FF-76CA0CAF6AE8-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159039
+e413303097.445506
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp:10:
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.h:12:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found
+o#include "ofxCv.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp8d0d293781a2b841^9e23723981a2b841^-538"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp:10:In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.h:12:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found#include "ofxCv.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp0000000000000000^3576"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.o src/../../SharedCode/Camera/CameraFirewire.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraFirewire.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraFirewire.o36"42F34E83-8D20-46EF-9F81-D1C892D6564B-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159062
+e413303097.445634
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp:9:
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.h:12:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found
+o#include "ofxCv.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp4e0c293781a2b841^9a24723981a2b841^-525"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp:9:In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.h:12:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found#include "ofxCv.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp0000000000000000^3540"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.o src/../../SharedCode/Camera/CameraIP.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraIP.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraIP.o36"67D584DD-A28E-4BC5-96A2-5CA1B9497073-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159054
+e413303097.445638
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp:10:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.h:12:10: fatal error: 'ofxLibdc.h' file not found
+o#include "ofxLibdc.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cppcefe283781a2b841^6325723981a2b841^-403"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp:10:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.h:12:10: fatal error: 'ofxLibdc.h' file not found#include "ofxLibdc.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp0000000000000000^3570"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.o src/../../SharedCode/Camera/CameraManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraManager.o36"3527A35A-930C-444B-A916-61B167E5E00F-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159083
+e413303097.343965
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp:10:
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.h:13:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found
+o#include "ofxCv.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp5f08293781a2b841^732b583981a2b841^-542"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp:10:In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.h:13:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found#include "ofxCv.h"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"'ofxCv.h' file not found-413303097#18446744073709551615#0#2(2@143"In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp:10:-413303097#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@115"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/SharedCode/Camera/CameraVidGrabber.cpp0000000000000000^9#9#9#9#158#0#21"Clang LLVM 1.0 Notice--2@141"In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.h:13:-413303097#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/SharedCode/Camera/CameraVidGrabber.h0000000000000000^12#9#12#9#190#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/SharedCode/Camera/CameraWrapper.h0000000000000000^11#9#11#9#186#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@133"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp0000000000000000^3588"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.o src/../../SharedCode/Camera/CameraVidGrabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidGrabber.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidGrabber.o36"A4DE688F-87D6-48A0-9650-D795685B1BF0-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159282
+e413303097.445650
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp:9:
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.h:11:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found
+o#include "ofxCv.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cppb001293781a2b841^1c26723981a2b841^-539"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp:9:In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.h:11:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraWrapper.h:12:10: fatal error: 'ofxCv.h' file not found#include "ofxCv.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp0000000000000000^3582"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.o src/../../SharedCode/Camera/CameraVidPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraVidPlayer.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CameraVidPlayer.o36"307B7D97-90F6-4241-874E-7F54CBC1F14C-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/CanonGrabber.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CanonGrabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/MotionManager.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/MotionManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159014
+e413303097.445522
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp:2:
+oIn file included from src/ofApp.h:4:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.h:12:10: fatal error: 'ofxLibdc.h' file not found
+o#include "ofxLibdc.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cppce19293781a2b841^4f22723981a2b841^-406"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp:2:In file included from src/ofApp.h:4:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.h:12:10: fatal error: 'ofxLibdc.h' file not found#include "ofxLibdc.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp0000000000000000^3468"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/main.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/main.o36"A4BDC8DA-F269-474F-9DC7-0CD403911BD1-
+
+CCompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413303095.159026
+e413303097.445719
+r0
+xCompileC
+xDerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp:1:
+oIn file included from src/ofApp.h:4:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.h:12:10: fatal error: 'ofxLibdc.h' file not found
+o#include "ofxLibdc.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp7616293781a2b841^9126723981a2b841^-407"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp:1:In file included from src/ofApp.h:4:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/../../SharedCode/Camera/CameraManager.h:12:10: fatal error: 'ofxLibdc.h' file not found#include "ofxLibdc.h"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp0000000000000000^3474"CompileC DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/IRTestDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/src/ofApp.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Objects-normal/i386/ofApp.o36"384C7A62-A5EA-4CC1-8F87-68A933559495-
+
+CLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/MacOS/IRTestDebug normal i386
+r0
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/IRTestDebug.app/Contents/Frameworks/GLUT.framework
+r0
+
+CPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/DerivedData/IRTest/Build/Intermediates/IRTest.build/Debug/IRTest.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s413303095.148326
+e413303095.150987
+r1
+xProcessInfoPlistFile
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plist5b0c263781a2b841^f4a6263781a2b841^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/openFrameworks-Info.plist0000000000000000^486"ProcessInfoPlistFile bin/IRTestDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app/Contents/Info.plist36"8A1ED6A2-139E-4EAA-BD42-04277B59FEA7-
+
+CTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/IRTest1/bin/IRTestDebug.app
+r0
+

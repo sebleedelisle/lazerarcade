@@ -1,0 +1,36 @@
+<srcvec>
+    <x>272.700012207</x>
+    <y>621.400024414</y>
+</srcvec>
+<srcvec>
+    <x>1032.599853516</x>
+    <y>636.100036621</y>
+</srcvec>
+<srcvec>
+    <x>272.099975586</x>
+    <y>698.700073242</y>
+</srcvec>
+<srcvec>
+    <x>1028.400146484</x>
+    <y>716.400024414</y>
+</srcvec>
+<dstvec>
+    <x>60.299968719</x>
+    <y>781.300048828</y>
+</dstvec>
+<dstvec>
+    <x>1132.197753906</x>
+    <y>801.100036621</y>
+</dstvec>
+<dstvec>
+    <x>62.999954224</x>
+    <y>906.600158691</y>
+</dstvec>
+<dstvec>
+    <x>1129.498046875</x>
+    <y>938.100158691</y>
+</dstvec>
+<srcWidth>1.000000000</srcWidth>
+<srcHeight>1.000000000</srcHeight>
+<dstWidth>1536.000000000</dstWidth>
+<dstHeight>1024.000000000</dstHeight>

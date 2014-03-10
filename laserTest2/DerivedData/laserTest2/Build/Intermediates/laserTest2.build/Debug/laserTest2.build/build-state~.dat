@@ -1,0 +1,724 @@
+TlaserTest2
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/Info.plist openFrameworks-Info.plist
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C1D6AE00000000000000AA
+t1371657902
+s170
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000500B633B000000000001A480
+t1342923579
+s107648
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005236231100000000000065B0
+t1379279633
+s26032
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000519F43A300000000023F11D0
+t1369392035
+s37687760
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000500B62FA000000000000BAA0
+t1342923514
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236231200000000003B2500
+t1379279634
+s3876096
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052362312000000000010BB70
+t1379279634
+s1096560
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000519F442E0000000000656060
+t1369392174
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000500B6300000000000000D4F0
+t1342923520
+s54512
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514766340000000000081CB0
+t1363633716
+s531632
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000523623140000000000130950
+t1379279636
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052362316000000000002DAD0
+t1379279638
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005236231700000000004A2E10
+t1379279639
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000523623170000000000322E20
+t1379279639
+s3288608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp
+c0000000051F69F5A0000000000002292
+t1375117146
+s8850
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp
+c0000000051F69F5A0000000000002459
+t1375117146
+s9305
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp
+c0000000052A09DEF00000000000038B9
+t1386257903
+s14521
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp
+c0000000051F69F5A0000000000001F5A
+t1375117146
+s8026
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp
+c0000000051F69F5A0000000000000EB9
+t1375117146
+s3769
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp
+c0000000051F69F5A0000000000001F2A
+t1375117146
+s7978
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp
+c0000000051F69F5A0000000000001172
+t1375117146
+s4466
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp
+c0000000051F69F5A00000000000011F1
+t1375117146
+s4593
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp
+c0000000051F69F5A00000000000008F2
+t1375117146
+s2290
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Tracker.cpp
+c0000000051F69F5A0000000000000360
+t1375117146
+s864
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Utilities.cpp
+c0000000051F69F5A00000000000011D6
+t1375117146
+s4566
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Wrappers.cpp
+c0000000051F69F5A0000000000000F31
+t1375117146
+s3889
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/libs/driver/libetherdream/etherdream.c
+c00000000525C0251000000000000535A
+t1381761617
+s21338
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/libs/driver/libetherdream/test.c
+c00000000525C025100000000000005D1
+t1381761617
+s1489
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/src/ofxEtherdream.cpp
+c00000000525C0251000000000000110B
+t1381761617
+s4363
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp
+c0000000052332AFC0000000000001EB4
+t1379085052
+s7860
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxButton.cpp
+c00000000521A43D9000000000000041A
+t1377453017
+s1050
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp
+c000000005256B105000000000000329E
+t1381413125
+s12958
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxLabel.cpp
+c00000000521A43D900000000000005DE
+t1377453017
+s1502
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxPanel.cpp
+c00000000525C28E6000000000000123A
+t1381771494
+s4666
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxSlider.cpp
+c00000000525BFD360000000000001227
+t1381760310
+s4647
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp
+c00000000521349620000000000001397
+t1376995682
+s5015
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxToggle.cpp
+c00000000525C28E60000000000000EC4
+t1381771494
+s3780
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/Camera.cpp
+c000000005203A34600000000000051F3
+t1375970118
+s20979
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/Grabber.cpp
+c0000000051F6A00100000000000003D9
+t1375117313
+s985
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/PointGrey.cpp
+c0000000051F6A0010000000000000DD0
+t1375117313
+s3536
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx/GLUT.framework
+c000000005213496900000000000000CC
+t1376995689
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c00000000521349690000000000093570
+t1376995689
+s603504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Camera.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Grabber.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ObjectFinder.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/PointGrey.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/RunningBackground.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Tracker.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Utilities.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Wrappers.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/etherdream.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/laserTest2Debug.LinkFileList
+c0000000052F50DF00000000000001467
+t1391791600
+s5223
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxBaseGui.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxButton.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxEtherdream.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxGuiGroup.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxLabel.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxPanel.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxSlider.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxSliderGroup.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxToggle.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/test.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c0000000052F50DF000000000000001A5
+t1391791600
+s421
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/Frameworks/GLUT.framework
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/Info.plist
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/MacOS/laserTest2Debug
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp
+c0000000052F50DDC0000000000000155
+t1391791580
+s341
+i"ofMain.h"
+i"ofApp.h"
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp
+c0000000052F50DDC0000000000000512
+t1391791580
+s1298
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.h
+c0000000052F50DDC00000000000001DA
+t1391791580
+s474
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/ofMain.h
+c0000000052134969000000000000070A
+t1376995689
+s1802
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c0000000052EA7DB10000000001FE46D0
+t1391099313
+s33441488
+
+NopenFrameworks-Info.plist
+c0000000052F50DDC00000000000002A5
+t1391791580
+s677
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Tracker.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Utilities.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Wrappers.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/libs/driver/libetherdream/etherdream.c
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/libs/driver/libetherdream/test.c
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/src/ofxEtherdream.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxButton.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxLabel.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxPanel.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxSlider.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxToggle.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/Camera.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/Grabber.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/PointGrey.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6421be7045a5b841^501ada7045a5b841^---0#1#0#--18"Check dependencies36"2FAD95B1-D6C2-4135-9AA8-798645D825F8-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879030
+e413484403.212201
+r0
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp:1:
+oIn file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h:22:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/src/ofxCv.h:4:10: fatal error: 'opencv2/opencv.hpp' file not found
+o#include "opencv2/opencv.hpp"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cppb037e17045a5b841^2861367345a5b841^-507"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp:1:In file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h:22:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/src/ofxCv.h:4:10: fatal error: 'opencv2/opencv.hpp' file not found#include "opencv2/opencv.hpp"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp0000000000000000^4759"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.o ../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Calibration.o36"C22DE3EA-842C-4650-99C6-EB7018EFAA32-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Camera.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/Camera.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879039
+e413484403.212264
+r0
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp:1:
+oIn file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h:31:
+o../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h:13:10: fatal error: 'opencv2/opencv.hpp' file not found
+o#include "opencv2/opencv.hpp"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp2d3ee17045a5b841^bf61367345a5b841^-465"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp:1:In file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h:31:../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h:13:10: fatal error: 'opencv2/opencv.hpp' file not found#include "opencv2/opencv.hpp"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp0000000000000000^4771"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.o ../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ContourFinder.o36"8E83AB66-488D-4267-91BE-6FE29C82E964-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879363
+e413484401.182066
+r1
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp9b3ce17045a5b841^dc102f7145a5b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp0000000000000000^4741"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.o ../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Distance.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Distance.o36"DE8DE3D7-5714-4137-8C98-D33DDADE5D6F-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879019
+e413484403.212084
+r1
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cppc72ae17045a5b841^8060367345a5b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp0000000000000000^4707"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.o ../../../addons/ofxCv/libs/CLD/src/ETF.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/ETF.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ETF.o36"73894175-E2B1-465C-B12D-12CE0DC45273-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879374
+e413484403.110853
+r0
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp:1:
+oIn file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h:3:
+o/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/src/ofxCv.h:4:10: fatal error: 'opencv2/opencv.hpp' file not found
+o#include "opencv2/opencv.hpp"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp6341e17045a5b841^f54b1c7345a5b841^-492"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp:1:In file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h:3:/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/src/ofxCv.h:4:10: fatal error: 'opencv2/opencv.hpp' file not found#include "opencv2/opencv.hpp"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@35"'opencv2/opencv.hpp' file not found-413484403#18446744073709551615#0#2(2@142"In file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp:1:-413484403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@92"file://localhost/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/libs/ofxCv/src/Flow.cpp0000000000000000^0#9#0#9#9#0#21"Clang LLVM 1.0 Notice--2@78"In file included from ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h:3:-413484403#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h0000000000000000^2#9#2#9#23#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv/src/ofxCv.h0000000000000000^3#9#3#9#29#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@133"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp0000000000000000^4717"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.o ../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Flow.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Flow.o36"2457C36A-AB3E-45C4-B827-74AD175E9D39-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Grabber.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/Grabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484401.183387
+e413484403.212256
+r0
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+oIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp:1:
+o../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h:8:10: fatal error: 'opencv2/opencv.hpp' file not found
+o#include "opencv2/opencv.hpp"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp7c2a2f7145a5b841^5662367345a5b841^-367"clang: warning: -lpthread: 'linker' input unusedIn file included from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp:1:../../../addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h:8:10: fatal error: 'opencv2/opencv.hpp' file not found#include "opencv2/opencv.hpp"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp0000000000000000^4735"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.o ../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Helpers.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Helpers.o36"F9F5021B-0085-4BFB-AB4B-BAD0A0CAC5B8-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ObjectFinder.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/PointGrey.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxLibdc/src/PointGrey.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/RunningBackground.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Tracker.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Tracker.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Utilities.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Utilities.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/Wrappers.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/ofxCv/src/Wrappers.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/etherdream.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/libs/driver/libetherdream/etherdream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879026
+e413484403.212261
+r1
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp5e2be17045a5b841^ed62367345a5b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp0000000000000000^4713"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.o ../../../addons/ofxCv/libs/CLD/src/fdog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxCv/libs/CLD/src/fdog.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/fdog.o36"83522838-9DAE-47E3-B6B4-838F138C99AC-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879015
+e413484403.212059
+r1
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cppc43ee17045a5b841^af5d367345a5b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp0000000000000000^4651"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/main.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/main.o36"73FCE780-1290-472B-8BDE-FBFCD76E3000-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413484400.879000
+e413484403.212070
+r1
+xCompileC
+xDerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp1b2fe17045a5b841^745f367345a5b841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp0000000000000000^4657"CompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/laserTest2Debug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxCv/libs -I../../../addons/ofxCv/libs/CLD -I../../../addons/ofxCv/libs/CLD/include -I../../../addons/ofxCv/libs/CLD/include/CLD -I../../../addons/ofxCv/libs/CLD/src -I../../../addons/ofxCv/libs/ofxCv -I../../../addons/ofxCv/libs/ofxCv/include -I../../../addons/ofxCv/libs/ofxCv/include/ofxCv -I../../../addons/ofxCv/libs/ofxCv/src -I../../../addons/ofxCv/src -I../../../addons/ofxEtherdream/libs -I../../../addons/ofxEtherdream/libs/common -I../../../addons/ofxEtherdream/libs/driver -I../../../addons/ofxEtherdream/libs/driver/libetherdream -I../../../addons/ofxEtherdream/src -I../../../addons/ofxGui/libs -I../../../addons/ofxGui/src -I../../../addons/ofxIlda/libs -I../../../addons/ofxIlda/src -I../../../addons/ofxLibdc/libs -I../../../addons/ofxLibdc/libs/osx -I../../../addons/ofxLibdc/libs/osx/include -I../../../addons/ofxLibdc/libs/osx/include/dc1394 -I../../../addons/ofxLibdc/libs/osx/include/dc1394/macosx -I../../../addons/ofxLibdc/libs/osx/include/dc1394/vendor -I../../../addons/ofxLibdc/libs/osx/lib -I../../../addons/ofxLibdc/src -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/src/ofApp.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofApp.o36"7CBECBFE-FCA0-4B23-8A5A-FCDF8277AAB3-
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxBaseGui.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxBaseGui.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxButton.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxButton.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxEtherdream.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/src/ofxEtherdream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxGuiGroup.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxGuiGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxLabel.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxLabel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxPanel.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxPanel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxSlider.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxSlider.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxSliderGroup.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxSliderGroup.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/ofxToggle.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxGui/src/ofxToggle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Objects-normal/i386/test.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/../../../addons/ofxEtherdream/libs/driver/libetherdream/test.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/MacOS/laserTest2Debug normal i386
+r0
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/laserTest2Debug.app/Contents/Frameworks/GLUT.framework
+r0
+
+CPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/DerivedData/laserTest2/Build/Intermediates/laserTest2.build/Debug/laserTest2.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/Info.plist openFrameworks-Info.plist
+s413484400.860249
+e413484400.871051
+r1
+xProcessInfoPlistFile
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.plist5664dc7045a5b841^5727df7045a5b841^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/openFrameworks-Info.plist0000000000000000^507"ProcessInfoPlistFile bin/laserTest2Debug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app/Contents/Info.plist36"C8BF60CE-0D05-41F7-A568-F8346C8D0D6B-
+
+CTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/laserTest2/bin/laserTest2Debug.app
+r0
+

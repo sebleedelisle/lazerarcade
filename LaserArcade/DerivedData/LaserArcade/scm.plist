@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/LazerArcade</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxIlda</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxMacamPs3Eye</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxLibdc</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxCv</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/addons/ofxEtherdream</string>
+		<string>/Users/sebretina/Dropbox/openFrameworks/apps/PixelPyros</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2014-02-17T18:16:28Z</date>
+	<key>MissingFilePaths</key>
+	<array/>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>

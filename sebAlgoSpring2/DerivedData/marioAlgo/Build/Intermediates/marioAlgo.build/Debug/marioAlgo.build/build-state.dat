@@ -1,0 +1,1095 @@
+TmarioAlgo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug normal i386
+cPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework
+cTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C1D6AE00000000000000AA
+t1371657902
+s170
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c00000000500B633B000000000001A480
+t1342923579
+s107648
+
+N/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005236231100000000000065B0
+t1379279633
+s26032
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000519F43A300000000023F11D0
+t1369392035
+s37687760
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c00000000500B62FA000000000000BAA0
+t1342923514
+s47776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236231200000000003B2500
+t1379279634
+s3876096
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000052362312000000000010BB70
+t1379279634
+s1096560
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000519F442E0000000000656060
+t1369392174
+s6643808
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000500B6300000000000000D4F0
+t1342923520
+s54512
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514766340000000000081CB0
+t1363633716
+s531632
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000523623140000000000130950
+t1379279636
+s1247568
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000052362316000000000002DAD0
+t1379279638
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005236231700000000004A2E10
+t1379279639
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000523623170000000000322E20
+t1379279639
+s3288608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/cairo/include/cairo/cairo-deprecated.h
+c000000005213496800000000000021FA
+t1376995688
+s8698
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/cairo/include/cairo/cairo-features.h
+c0000000052134968000000000000031D
+t1376995688
+s797
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/cairo/include/cairo/cairo-pdf.h
+c00000000521349680000000000000C24
+t1376995688
+s3108
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/cairo/include/cairo/cairo-svg.h
+c00000000521349680000000000000ADD
+t1376995688
+s2781
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/cairo/include/cairo/cairo-version.h
+c00000000521349680000000000000094
+t1376995688
+s148
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/cairo/include/cairo/cairo.h
+c00000000521349680000000000016BCE
+t1376995688
+s93134
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/fmodex/include/fmod.h
+c00000000521349680000000000028E68
+t1376995688
+s167528
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/fmodex/include/fmod_codec.h
+c0000000052134968000000000000334A
+t1376995688
+s13130
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/fmodex/include/fmod_dsp.h
+c0000000052134968000000000000892F
+t1376995688
+s35119
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/fmodex/include/fmod_errors.h
+c00000000521349680000000000003408
+t1376995688
+s13320
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/fmodex/include/fmod_memoryinfo.h
+c00000000521349680000000000003C95
+t1376995688
+s15509
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glew/include/GL/glew.h
+c000000005213496900000000000C1916
+t1376995689
+s792854
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx/GLUT.framework
+c000000005213496900000000000000CC
+t1376995689
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c00000000521349690000000000093570
+t1376995689
+s603504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/3d/of3dPrimitives.h
+c0000000052134969000000000000209B
+t1376995689
+s8347
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/3d/of3dUtils.h
+c000000005213496900000000000001B2
+t1376995689
+s434
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/3d/ofCamera.h
+c00000000521349690000000000000A1A
+t1376995689
+s2586
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/3d/ofEasyCam.h
+c000000005213496900000000000007D4
+t1376995689
+s2004
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/3d/ofMesh.h
+c00000000527128620000000000001C23
+t1383147618
+s7203
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/3d/ofNode.h
+c00000000521349690000000000001454
+t1376995689
+s5204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/app/ofAppBaseWindow.h
+c00000000525BFD360000000000000862
+t1381760310
+s2146
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/app/ofAppRunner.h
+c00000000522DB9090000000000000A4B
+t1378728201
+s2635
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/app/ofBaseApp.h
+c000000005213496900000000000008BF
+t1376995689
+s2239
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/communication/ofArduino.h
+c00000000521349690000000000004239
+t1376995689
+s16953
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/communication/ofSerial.h
+c00000000521349690000000000000D7E
+t1376995689
+s3454
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/events/ofDelegate.h
+c00000000521349690000000000001B84
+t1376995689
+s7044
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/events/ofEventUtils.h
+c00000000521349690000000000002073
+t1376995689
+s8307
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/events/ofEvents.h
+c00000000521349690000000000001DDF
+t1376995689
+s7647
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofFbo.h
+c000000005231D3B7000000000000117C
+t1378997175
+s4476
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+c000000005231D3B700000000000018B9
+t1378997175
+s6329
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofGLRenderer.h
+c00000000521349690000000000001451
+t1376995689
+s5201
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofGLUtils.h
+c000000005213496900000000000013ED
+t1376995689
+s5101
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofLight.h
+c0000000052134969000000000000094E
+t1376995689
+s2382
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofMaterial.h
+c000000005213496900000000000005D2
+t1376995689
+s1490
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofShader.h
+c0000000052134969000000000000153E
+t1376995689
+s5438
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofTexture.h
+c00000000521349690000000000001CFB
+t1376995689
+s7419
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofVbo.h
+c00000000521349690000000000000EA1
+t1376995689
+s3745
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/gl/ofVboMesh.h
+c00000000521349690000000000000358
+t1376995689
+s856
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/of3dGraphics.h
+c00000000521349690000000000000FEA
+t1376995689
+s4074
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofCairoRenderer.h
+c00000000521349690000000000001763
+t1376995689
+s5987
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofGraphics.h
+c000000005213496900000000000027B4
+t1376995689
+s10164
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofImage.h
+c000000005213496900000000000021C4
+t1376995689
+s8644
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofPath.h
+c00000000521349690000000000001AFA
+t1376995689
+s6906
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofPixels.h
+c0000000052134969000000000000148C
+t1376995689
+s5260
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofPolyline.h
+c0000000052134969000000000000234E
+t1376995689
+s9038
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofRendererCollection.h
+c00000000521349690000000000002CC6
+t1376995689
+s11462
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofTessellator.h
+c00000000521349690000000000000459
+t1376995689
+s1113
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/graphics/ofTrueTypeFont.h
+c00000000521349690000000000000C65
+t1376995689
+s3173
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofMath.h
+c000000005213496900000000000015DE
+t1376995689
+s5598
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofMatrix3x3.h
+c00000000521349690000000000000BB7
+t1376995689
+s2999
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofMatrix4x4.h
+c00000000521349690000000000006D6A
+t1376995689
+s28010
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofQuaternion.h
+c000000005213496900000000000034A0
+t1376995689
+s13472
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofVec2f.h
+c00000000521349690000000000004343
+t1376995689
+s17219
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofVec3f.h
+c000000005249C72F00000000000064A8
+t1380566831
+s25768
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofVec4f.h
+c00000000521349690000000000002FCF
+t1376995689
+s12239
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/math/ofVectorMath.h
+c00000000521349690000000000000099
+t1376995689
+s153
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/sound/ofBaseSoundPlayer.h
+c00000000521349690000000000000406
+t1376995689
+s1030
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/sound/ofBaseSoundStream.h
+c0000000052134969000000000000036D
+t1376995689
+s877
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/sound/ofFmodSoundPlayer.h
+c000000005213496900000000000006F4
+t1376995689
+s1780
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/sound/ofRtAudioSoundStream.h
+c0000000052134969000000000000054A
+t1376995689
+s1354
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/sound/ofSoundPlayer.h
+c0000000052134969000000000000075B
+t1376995689
+s1883
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/sound/ofSoundStream.h
+c0000000052134969000000000000073B
+t1376995689
+s1851
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofBaseTypes.h
+c000000005213496900000000000035C7
+t1376995689
+s13767
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofColor.h
+c00000000521349690000000000001CA4
+t1376995689
+s7332
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofParameter.h
+c00000000521349690000000000005A4B
+t1376995689
+s23115
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofParameterGroup.h
+c000000005231D3B7000000000000104C
+t1378997175
+s4172
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofPoint.h
+c0000000052134969000000000000003D
+t1376995689
+s61
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofRectangle.h
+c00000000521349690000000000001C5F
+t1376995689
+s7263
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/types/ofTypes.h
+c000000005213496900000000000013C2
+t1376995689
+s5058
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofConstants.h
+c000000005213496900000000000048AB
+t1376995689
+s18603
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofFileUtils.h
+c00000000521349690000000000002049
+t1376995689
+s8265
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofLog.h
+c00000000521349690000000000001836
+t1376995689
+s6198
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofMatrixStack.h
+c00000000521349690000000000000A56
+t1376995689
+s2646
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofSystemUtils.h
+c00000000521349690000000000000202
+t1376995689
+s514
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofThread.h
+c00000000521349690000000000001410
+t1376995689
+s5136
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofURLFileLoader.h
+c000000005213496900000000000008E5
+t1376995689
+s2277
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofUtils.h
+c000000005213496900000000000017D0
+t1376995689
+s6096
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/utils/ofXml.h
+c000000005231D3B70000000000001FA9
+t1378997175
+s8105
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/video/ofQTKitGrabber.h
+c00000000521349690000000000000B71
+t1376995689
+s2929
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/video/ofQTKitPlayer.h
+c0000000052134969000000000000122A
+t1376995689
+s4650
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/video/ofVideoGrabber.h
+c00000000521349690000000000000AE6
+t1376995689
+s2790
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/openFrameworks/video/ofVideoPlayer.h
+c00000000521349690000000000000B95
+t1376995689
+s2965
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/AbstractDelegate.h
+c000000005213496A0000000000000E6B
+t1376995690
+s3691
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/AbstractEvent.h
+c000000005213496A0000000000005544
+t1376995690
+s21828
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/AbstractPriorityDelegate.h
+c000000005213496A00000000000009C9
+t1376995690
+s2505
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ActiveMethod.h
+c000000005213496A0000000000001C64
+t1376995690
+s7268
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ActiveResult.h
+c000000005213496A0000000000002E66
+t1376995690
+s11878
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ActiveRunnable.h
+c000000005213496A0000000000001785
+t1376995690
+s6021
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ActiveStarter.h
+c000000005213496A0000000000000927
+t1376995690
+s2343
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Any.h
+c000000005213496A00000000000020E8
+t1376995690
+s8424
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/AtomicCounter.h
+c000000005213496A0000000000002138
+t1376995690
+s8504
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/AutoPtr.h
+c000000005213496A0000000000001E0C
+t1376995690
+s7692
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/AutoReleasePool.h
+c000000005213496A0000000000000C42
+t1376995690
+s3138
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Bugcheck.h
+c000000005213496A00000000000014A9
+t1376995690
+s5289
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Condition.h
+c000000005213496A0000000000001236
+t1376995690
+s4662
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Config.h
+c000000005213496A0000000000000EA4
+t1376995690
+s3748
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/AbstractContainerNode.h
+c000000005213496A0000000000000E9C
+t1376995690
+s3740
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/AbstractNode.h
+c000000005213496A000000000000127B
+t1376995690
+s4731
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/Attr.h
+c000000005213496A0000000000001E38
+t1376995690
+s7736
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/CharacterData.h
+c000000005213496A0000000000001233
+t1376995690
+s4659
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/ChildNodesList.h
+c000000005213496A00000000000008CF
+t1376995690
+s2255
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/DOMException.h
+c000000005213496A00000000000013B9
+t1376995690
+s5049
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/DOMObject.h
+c000000005213496A0000000000000E55
+t1376995690
+s3669
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/DOMParser.h
+c000000005213496A0000000000001005
+t1376995690
+s4101
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/DOMWriter.h
+c000000005213496A000000000000105D
+t1376995690
+s4189
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/Document.h
+c000000005213496A0000000000002C58
+t1376995690
+s11352
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/DocumentEvent.h
+c000000005213496A0000000000000D80
+t1376995690
+s3456
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/DocumentFragment.h
+c000000005213496A0000000000001153
+t1376995690
+s4435
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/Element.h
+c000000005213496A000000000000247F
+t1376995690
+s9343
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/Event.h
+c000000005213496A0000000000001CD3
+t1376995690
+s7379
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/EventTarget.h
+c000000005213496A0000000000000FEE
+t1376995690
+s4078
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/MutationEvent.h
+c000000005213496A00000000000015B9
+t1376995690
+s5561
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/NamedNodeMap.h
+c000000005213496A0000000000001172
+t1376995690
+s4466
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/Node.h
+c000000005213496A0000000000003276
+t1376995690
+s12918
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/NodeFilter.h
+c000000005213496A0000000000001A30
+t1376995690
+s6704
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/NodeIterator.h
+c000000005213496A000000000000189F
+t1376995690
+s6303
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/NodeList.h
+c000000005213496A0000000000000A81
+t1376995690
+s2689
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/DOM/Text.h
+c000000005213496A0000000000000ECF
+t1376995690
+s3791
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Event.h
+c000000005213496A0000000000000E58
+t1376995690
+s3672
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Event_POSIX.h
+c000000005213496A0000000000000A91
+t1376995690
+s2705
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Exception.h
+c000000005213496A00000000000028B1
+t1376995690
+s10417
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/File.h
+c000000005213496A0000000000001FCC
+t1376995690
+s8140
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/File_UNIX.h
+c000000005213496A0000000000000BC1
+t1376995690
+s3009
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Foundation.h
+c000000005213496A00000000000010F9
+t1376995690
+s4345
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/FunctionPriorityDelegate.h
+c000000005213496A0000000000002C69
+t1376995690
+s11369
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Mutex.h
+c000000005213496A0000000000001DD6
+t1376995690
+s7638
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Mutex_POSIX.h
+c000000005213496A0000000000000AC2
+t1376995690
+s2754
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/NotificationStrategy.h
+c000000005213496A0000000000000F3F
+t1376995690
+s3903
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Path.h
+c000000005213496A00000000000036A0
+t1376995690
+s13984
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Platform.h
+c000000005213496A0000000000001CBD
+t1376995690
+s7357
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Platform_POSIX.h
+c000000005213496A0000000000000843
+t1376995690
+s2115
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/PriorityDelegate.h
+c000000005213496A0000000000003516
+t1376995690
+s13590
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/PriorityEvent.h
+c000000005213496A0000000000000A78
+t1376995690
+s2680
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/PriorityExpire.h
+c000000005213496A000000000000155B
+t1376995690
+s5467
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/PriorityStrategy.h
+c000000005213496A00000000000013CE
+t1376995690
+s5070
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/RefCountedObject.h
+c000000005213496A0000000000000BB1
+t1376995690
+s2993
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Runnable.h
+c000000005213496A0000000000000861
+t1376995690
+s2145
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/ContentHandler.h
+c000000005213496A000000000000322F
+t1376995690
+s12847
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/DTDHandler.h
+c000000005213496A00000000000012A1
+t1376995690
+s4769
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/LexicalHandler.h
+c000000005213496A0000000000001975
+t1376995690
+s6517
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/Locator.h
+c000000005213496A0000000000001678
+t1376995690
+s5752
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/NamespaceSupport.h
+c000000005213496A0000000000002491
+t1376995690
+s9361
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/SAXException.h
+c000000005213496A0000000000001BF7
+t1376995690
+s7159
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/SAXParser.h
+c000000005213496A00000000000010D3
+t1376995690
+s4307
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SAX/XMLReader.h
+c000000005213496A00000000000026EA
+t1376995690
+s9962
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ScopedLock.h
+c000000005213496A0000000000000CC5
+t1376995690
+s3269
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ScopedUnlock.h
+c000000005213496A000000000000092B
+t1376995690
+s2347
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SharedPtr.h
+c000000005213496A0000000000002278
+t1376995690
+s8824
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SignalHandler.h
+c000000005213496A0000000000001205
+t1376995690
+s4613
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/SingletonHolder.h
+c000000005213496A0000000000000A67
+t1376995690
+s2663
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/StreamConverter.h
+c000000005213496A0000000000001588
+t1376995690
+s5512
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/StreamUtil.h
+c000000005213496A0000000000000E2F
+t1376995690
+s3631
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/TextEncoding.h
+c000000005213496A0000000000002078
+t1376995690
+s8312
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Thread.h
+c000000005213496A0000000000001E48
+t1376995690
+s7752
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/ThreadPool.h
+c000000005213496A0000000000001C8A
+t1376995690
+s7306
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Thread_POSIX.h
+c000000005213496A00000000000014C0
+t1376995690
+s5312
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Timestamp.h
+c000000005213496A0000000000001A41
+t1376995690
+s6721
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/Types.h
+c000000005213496A0000000000001ABE
+t1376995690
+s6846
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/UnbufferedStreamBuf.h
+c000000005213496A0000000000001262
+t1376995690
+s4706
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/Name.h
+c000000005213496A0000000000001200
+t1376995690
+s4608
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/NamePool.h
+c000000005213496A0000000000000C08
+t1376995690
+s3080
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/ParserEngine.h
+c000000005213496A000000000000332C
+t1376995690
+s13100
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/XML.h
+c000000005213496A0000000000000A8A
+t1376995690
+s2698
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/XMLException.h
+c000000005213496A00000000000007EB
+t1376995690
+s2027
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/XMLStream.h
+c000000005213496A0000000000000C0A
+t1376995690
+s3082
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/XMLString.h
+c000000005213496A0000000000000CB6
+t1376995690
+s3254
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/XMLWriter.h
+c000000005213496A00000000000036CC
+t1376995690
+s14028
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/expat.h
+c000000005213496A0000000000009D93
+t1376995690
+s40339
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/poco/include/Poco/XML/expat_external.h
+c000000005213496A0000000000000D24
+t1376995690
+s3364
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/tess2/include/tesselator.h
+c00000000521349700000000000001C67
+t1376995696
+s7271
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o
+t1391385503
+s128932
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/marioAlgoDebug.LinkFileList
+c0000000052EEDB9E0000000000000165
+t1391385502
+s357
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c0000000052EEDB9E00000000000001A5
+t1391385502
+s421
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app
+t1391419806
+s102
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework
+t1391385563
+s204
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist
+t1391385502
+s1074
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug
+t1391419806
+s7842540
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/PkgInfo
+t1391385502
+s8
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp
+c00000000521349660000000000000158
+t1376995686
+s344
+i"ofMain.h"
+i"ofApp.h"
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp
+c0000000052EF61DE00000000000007D7
+t1391419870
+s2007
+
+N/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.h
+c0000000052EED9EC0000000000000113
+t1391385068
+s275
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworks/ofMain.h
+c0000000052134969000000000000070A
+t1376995689
+s1802
+
+N/Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c0000000052EA7DB10000000001FE46D0
+t1391099313
+s33441488
+
+NopenFrameworks-Info.plist
+c00000000520F42A400000000000002A5
+t1376731812
+s677
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp
+r0
+
+CBuild AST from /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaeb7e55e999fb841^4ef0e55e999fb841^---0#1#0#--18"Check dependencies36"FAC23348-E3B9-45F8-BB57-C976FA82165F-
+
+CCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413078302.749735
+e413078303.898682
+r1
+xCompileC
+xDerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp1422c01e139fb841^c30fe61f139fb841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp0000000000000000^3556"CompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/marioAlgoDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/main.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/main.o36"8A16272A-CE47-46E4-9728-CE22C99EE3E0-
+
+CCompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s413112670.914716
+e413112672.228287
+r1
+xCompileC
+xDerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: -lpthread: 'linker' input unused
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0343ea5e999fb841^d66f3a60999fb841^-49"clang: warning: -lpthread: 'linker' input unused-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp0000000000000000^3562"CompileC DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/marioAlgoDebug.hmap -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources/i386 -I/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.dia -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/src/ofApp.cpp -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/ofApp.o36"61F80CFE-26FA-4FCF-9FC8-1A4C0824192A-
+
+CLd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug normal i386
+s413112672.234670
+e413112672.763266
+r1
+xLd
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug5d343c60999fb841^5665c360999fb841^---0#0#0#--2253"Ld bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug normal i386    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin -F/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx -filelist /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/marioAlgoDebug.LinkFileList -mmacosx-version-min=10.6 -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a ../../../libs/openssl/lib/osx/crypto.a ../../../libs/openssl/lib/osx/ssl.a ../../../libs/glfw/lib/osx/libglfw3.a -framework Accelerate -framework QTKit -framework GLUT /Users/sebretina/Dropbox/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework CoreVideo -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug36"3798B9BB-F66D-48AA-9383-C0C9834E7F71-
+
+CPBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework
+s413078363.106518
+e413078363.143429
+r1
+xPBXCp
+x../../../libs/glut/lib/osx/GLUT.framework
+xbin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework25591b5b139fb841^b3b7245b139fb841^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework000000000080d041^523"PBXCp ../../../libs/glut/lib/osx/GLUT.framework bin/marioAlgoDebug.app/Contents/Frameworks/GLUT.framework    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx/GLUT.framework /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Frameworks36"3D0183A1-0A6B-4208-B05F-5169DF67CB26-
+
+CPhaseScriptExecution "Run Script" /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+s413112672.771256
+e413112672.800222
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'486dc660999fb841^f9d9cc60999fb841^---0#0#0#--27367"PhaseScriptExecution "Run Script" DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER sebretina    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Products    setenv BUILD_ROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin    setenv CACHE_ROOT /var/folders/hc/w2cnwwwx4jn8bfy37v5r2ff80000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/hc/w2cnwwwx4jn8bfy37v5r2ff80000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMBINE_HIDPI_IMAGES YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/hc/w2cnwwwx4jn8bfy37v5r2ff80000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin    setenv CONFIGURATION_TEMP_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug    setenv CONTENTS_FOLDER_PATH marioAlgoDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/sebretina/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH marioAlgoDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/marioAlgo.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME marioAlgoDebug.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH marioAlgoDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH marioAlgoDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME marioAlgoDebug    setenv EXECUTABLE_PATH marioAlgoDebug.app/Contents/MacOS/marioAlgoDebug    setenv FILE_LIST /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH marioAlgoDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin\"  \"/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME marioAlgoDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING NONE    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS YES    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_CAIRO "\"../../../libs/cairo/include/cairo\""    setenv HEADER_FMODEX "\"../../../libs/fmodex/include\""    setenv HEADER_FREEIMAGE "\"../../../libs/FreeImage/include\""    setenv HEADER_FREETYPE "\"../../../libs/freetype/include\""    setenv HEADER_FREETYPE2 "\"../../../libs/freetype/include/freetype2\""    setenv HEADER_GLEW "\"../../../libs/glew/include\""    setenv HEADER_GLFW "\"../../../libs/glfw/include\""    setenv HEADER_OF "\"../../../libs/openFrameworks/**\""    setenv HEADER_POCO "\"../../../libs/poco/include\""    setenv HEADER_RTAUDIO "\"../../../libs/rtAudio/include\""    setenv HEADER_SEARCH_PATHS "\"/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/include\" \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\" src"    setenv HEADER_TESS2 "\"../../../libs/tess2/include\""    setenv ICON icon-debug.icns    setenv ICONV /usr/bin/iconv    setenv ICON_FILE ../../../libs/openFrameworksCompiled/project/osx/icon-debug.icns    setenv ICON_FILE_PATH ../../../libs/openFrameworksCompiled/project/osx/    setenv ICON_NAME_DEBUG icon-debug.icns    setenv ICON_NAME_RELEASE icon.icns    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH marioAlgoDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH marioAlgoDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/marioAlgo.dst/Users/sebretina/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER sebretina    setenv INSTALL_PATH /Users/sebretina/Applications    setenv INSTALL_ROOT /tmp/marioAlgo.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH marioAlgoDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/marioAlgoDebug-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin\"                                                              "    setenv LIB_CAIRO1 "\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    setenv LIB_CAIRO2 "\"../../../libs/cairo/lib/osx/cairo.a\""    setenv LIB_CAIRO3 "\"../../../libs/cairo/lib/osx/pixman-1.a\""    setenv LIB_FMODEX "\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    setenv LIB_FREEIMAGE "\"../../../libs/FreeImage/lib/osx/freeimage.a\""    setenv LIB_FREETYPE "\"../../../libs/freetype/lib/osx/freetype.a\""    setenv LIB_GLEW "\"../../../libs/glew/lib/osx/glew.a\""    setenv LIB_GLFW "\"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv LIB_GLUT "\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    setenv LIB_OPENSSL1 "\"../../../libs/openssl/lib/osx/crypto.a\""    setenv LIB_OPENSSL2 "\"../../../libs/openssl/lib/osx/ssl.a\""    setenv LIB_POCO_1 "\"../../../libs/poco/lib/osx/PocoCrypto.a\""    setenv LIB_POCO_10 "\"../../../libs/poco/lib/osx/PocoZip.a\""    setenv LIB_POCO_2 "\"../../../libs/poco/lib/osx/PocoData.a\""    setenv LIB_POCO_3 "\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    setenv LIB_POCO_4 "\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    setenv LIB_POCO_5 "\"../../../libs/poco/lib/osx/PocoFoundation.a\""    setenv LIB_POCO_6 "\"../../../libs/poco/lib/osx/PocoNet.a\""    setenv LIB_POCO_7 "\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    setenv LIB_POCO_8 "\"../../../libs/poco/lib/osx/PocoUtil.a\""    setenv LIB_POCO_9 "\"../../../libs/poco/lib/osx/PocoXML.a\""    setenv LIB_RTAUDIO "\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    setenv LIB_TESS "\"../../../libs/tess2/lib/osx/tess2.a\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal/i386/marioAlgoDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH marioAlgoDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F37    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Objects-normal    setenv OBJROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates    setenv OF_CORE_HEADERS "\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\""    setenv OF_CORE_LIBS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv OF_PATH ../../..    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread -mtune=native"    setenv OTHER_LDFLAGS "\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\""    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH marioAlgoDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/PkgInfo    setenv PKGINFO_PATH marioAlgoDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4H1503    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH marioAlgoDebug.app/Contents/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH marioAlgoDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME marioAlgoDebug    setenv PRODUCT_SETTINGS_PATH /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT marioAlgo    setenv PROJECT_DERIVED_FILE_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/DerivedSources    setenv PROJECT_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv PROJECT_FILE_PATH /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/marioAlgo.xcodeproj    setenv PROJECT_NAME marioAlgo    setenv PROJECT_TEMP_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build    setenv PROJECT_TEMP_ROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates    setenv PUBLIC_HEADERS_FOLDER_PATH marioAlgoDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH marioAlgoDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk    setenv SDK_NAME macosx10.8    setenv SDK_PRODUCT_BUILD_VERSION 12D75    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH marioAlgoDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH marioAlgoDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv SRCROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME marioAlgo    setenv TARGET_BUILD_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin    setenv TARGET_NAME marioAlgo    setenv TARGET_TEMP_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build    setenv TEMP_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build    setenv TEMP_FILES_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build    setenv TEMP_FILE_DIR /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build    setenv TEMP_ROOT /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH marioAlgoDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER sebretina    setenv USER_APPS_DIR /Users/sebretina/Applications    setenv USER_LIBRARY_DIR /Users/sebretina/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH marioAlgoDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER sebretina    setenv VERSION_INFO_FILE marioAlgoDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:marioAlgoDebug  PROJECT:marioAlgo-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME marioAlgoDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/DerivedData/marioAlgo/Build/Intermediates/marioAlgo.build/Debug/marioAlgo.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"06E8331A-93FF-4D45-A845-F2F455564C68-
+
+CProcessInfoPlistFile /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s413078302.738166
+e413078302.741654
+r1
+xProcessInfoPlistFile
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process openFrameworks-Info.pliste717bd1e139fb841^90ddbd1e139fb841^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/openFrameworks-Info.plist0000000000000000^501"ProcessInfoPlistFile bin/marioAlgoDebug.app/Contents/Info.plist openFrameworks-Info.plist    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app/Contents/Info.plist36"C97161D2-C5A9-47E8-99A9-1903F9F4190D-
+
+CTouch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app
+s413112672.815832
+e413112672.821966
+r1
+xTouch
+x/Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.appd1e6d060999fb841^f06dd260999fb841^---0#0#0#--223"Touch bin/marioAlgoDebug.app    cd /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo    /usr/bin/touch -c /Users/sebretina/Dropbox/openFrameworks/apps/ShootingGallery/marioAlgo/bin/marioAlgoDebug.app36"B01538C6-C9CD-4AAD-BA55-169F9DCDCB7F-
+
